@@ -1,0 +1,20 @@
+[0.422s] Invoking command in '/home/markros2/rosproject/src/my_robot_slam': PYTHONPATH=/home/markros2/rosproject/install/my_robot_slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_slam build --build-base /home/markros2/rosproject/build/my_robot_slam/build install --prefix /home/markros2/rosproject/install/my_robot_slam --record /home/markros2/rosproject/build/my_robot_slam/install.log --single-version-externally-managed
+[0.621s] running egg_info
+[0.622s] writing ../../build/my_robot_slam/my_robot_slam.egg-info/PKG-INFO
+[0.622s] writing dependency_links to ../../build/my_robot_slam/my_robot_slam.egg-info/dependency_links.txt
+[0.623s] writing entry points to ../../build/my_robot_slam/my_robot_slam.egg-info/entry_points.txt
+[0.623s] writing requirements to ../../build/my_robot_slam/my_robot_slam.egg-info/requires.txt
+[0.623s] writing top-level names to ../../build/my_robot_slam/my_robot_slam.egg-info/top_level.txt
+[0.666s] reading manifest file '../../build/my_robot_slam/my_robot_slam.egg-info/SOURCES.txt'
+[0.667s] writing manifest file '../../build/my_robot_slam/my_robot_slam.egg-info/SOURCES.txt'
+[0.667s] running build
+[0.667s] running build_py
+[0.667s] running install
+[0.668s] running install_lib
+[0.669s] running install_data
+[0.670s] running install_egg_info
+[0.672s] removing '/home/markros2/rosproject/install/my_robot_slam/lib/python3.8/site-packages/my_robot_slam-0.0.0-py3.8.egg-info' (and everything under it)
+[0.672s] Copying ../../build/my_robot_slam/my_robot_slam.egg-info to /home/markros2/rosproject/install/my_robot_slam/lib/python3.8/site-packages/my_robot_slam-0.0.0-py3.8.egg-info
+[0.673s] running install_scripts
+[0.697s] writing list of installed files to '/home/markros2/rosproject/build/my_robot_slam/install.log'
+[0.722s] Invoked command in '/home/markros2/rosproject/src/my_robot_slam' returned '0': PYTHONPATH=/home/markros2/rosproject/install/my_robot_slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_slam build --build-base /home/markros2/rosproject/build/my_robot_slam/build install --prefix /home/markros2/rosproject/install/my_robot_slam --record /home/markros2/rosproject/build/my_robot_slam/install.log --single-version-externally-managed

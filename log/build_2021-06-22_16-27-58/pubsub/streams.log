@@ -1,0 +1,41 @@
+[0.609s] Invoking command in '/home/markros2/rosproject/src/pubsub': PYTHONPATH=/home/markros2/rosproject/install/pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/markros2/rosproject/build/pubsub/build install --prefix /home/markros2/rosproject/install/pubsub --record /home/markros2/rosproject/build/pubsub/install.log --single-version-externally-managed
+[0.824s] running egg_info
+[0.825s] creating ../../build/pubsub/pubsub.egg-info
+[0.825s] writing ../../build/pubsub/pubsub.egg-info/PKG-INFO
+[0.826s] writing dependency_links to ../../build/pubsub/pubsub.egg-info/dependency_links.txt
+[0.827s] writing entry points to ../../build/pubsub/pubsub.egg-info/entry_points.txt
+[0.827s] writing requirements to ../../build/pubsub/pubsub.egg-info/requires.txt
+[0.827s] writing top-level names to ../../build/pubsub/pubsub.egg-info/top_level.txt
+[0.828s] writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[0.873s] reading manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[0.874s] writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[0.874s] running build
+[0.874s] running build_py
+[0.874s] creating /home/markros2/rosproject/build/pubsub/build
+[0.874s] creating /home/markros2/rosproject/build/pubsub/build/lib
+[0.874s] creating /home/markros2/rosproject/build/pubsub/build/lib/pubsub
+[0.875s] copying pubsub/__init__.py -> /home/markros2/rosproject/build/pubsub/build/lib/pubsub
+[0.875s] copying pubsub/subscriber.py -> /home/markros2/rosproject/build/pubsub/build/lib/pubsub
+[0.875s] copying pubsub/publisher.py -> /home/markros2/rosproject/build/pubsub/build/lib/pubsub
+[0.875s] running install
+[0.876s] running install_lib
+[0.877s] creating /home/markros2/rosproject/install/pubsub/lib/python3.8/site-packages/pubsub
+[0.877s] copying /home/markros2/rosproject/build/pubsub/build/lib/pubsub/__init__.py -> /home/markros2/rosproject/install/pubsub/lib/python3.8/site-packages/pubsub
+[0.878s] copying /home/markros2/rosproject/build/pubsub/build/lib/pubsub/subscriber.py -> /home/markros2/rosproject/install/pubsub/lib/python3.8/site-packages/pubsub
+[0.878s] copying /home/markros2/rosproject/build/pubsub/build/lib/pubsub/publisher.py -> /home/markros2/rosproject/install/pubsub/lib/python3.8/site-packages/pubsub
+[0.878s] byte-compiling /home/markros2/rosproject/install/pubsub/lib/python3.8/site-packages/pubsub/__init__.py to __init__.cpython-38.pyc
+[0.880s] byte-compiling /home/markros2/rosproject/install/pubsub/lib/python3.8/site-packages/pubsub/subscriber.py to subscriber.cpython-38.pyc
+[0.880s] byte-compiling /home/markros2/rosproject/install/pubsub/lib/python3.8/site-packages/pubsub/publisher.py to publisher.cpython-38.pyc
+[0.880s] running install_data
+[0.881s] creating /home/markros2/rosproject/install/pubsub/share/ament_index
+[0.881s] creating /home/markros2/rosproject/install/pubsub/share/ament_index/resource_index
+[0.881s] creating /home/markros2/rosproject/install/pubsub/share/ament_index/resource_index/packages
+[0.881s] copying resource/pubsub -> /home/markros2/rosproject/install/pubsub/share/ament_index/resource_index/packages
+[0.882s] copying package.xml -> /home/markros2/rosproject/install/pubsub/share/pubsub
+[0.882s] running install_egg_info
+[0.883s] Copying ../../build/pubsub/pubsub.egg-info to /home/markros2/rosproject/install/pubsub/lib/python3.8/site-packages/pubsub-0.0.0-py3.8.egg-info
+[0.884s] running install_scripts
+[0.901s] Installing publisher script to /home/markros2/rosproject/install/pubsub/lib/pubsub
+[0.901s] Installing subscriber script to /home/markros2/rosproject/install/pubsub/lib/pubsub
+[0.901s] writing list of installed files to '/home/markros2/rosproject/build/pubsub/install.log'
+[0.935s] Invoked command in '/home/markros2/rosproject/src/pubsub' returned '0': PYTHONPATH=/home/markros2/rosproject/install/pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/markros2/rosproject/build/pubsub/build install --prefix /home/markros2/rosproject/install/pubsub --record /home/markros2/rosproject/build/pubsub/install.log --single-version-externally-managed

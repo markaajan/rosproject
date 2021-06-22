@@ -1,0 +1,21 @@
+[0.622s] Invoking command in '/home/markros2/rosproject/src/my_robot_navigation': PYTHONPATH=/home/markros2/rosproject/install/my_robot_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_navigation build --build-base /home/markros2/rosproject/build/my_robot_navigation/build install --prefix /home/markros2/rosproject/install/my_robot_navigation --record /home/markros2/rosproject/build/my_robot_navigation/install.log --single-version-externally-managed
+[0.840s] running egg_info
+[0.841s] writing ../../build/my_robot_navigation/my_robot_navigation.egg-info/PKG-INFO
+[0.841s] writing dependency_links to ../../build/my_robot_navigation/my_robot_navigation.egg-info/dependency_links.txt
+[0.841s] writing entry points to ../../build/my_robot_navigation/my_robot_navigation.egg-info/entry_points.txt
+[0.842s] writing requirements to ../../build/my_robot_navigation/my_robot_navigation.egg-info/requires.txt
+[0.842s] writing top-level names to ../../build/my_robot_navigation/my_robot_navigation.egg-info/top_level.txt
+[0.899s] reading manifest file '../../build/my_robot_navigation/my_robot_navigation.egg-info/SOURCES.txt'
+[0.900s] writing manifest file '../../build/my_robot_navigation/my_robot_navigation.egg-info/SOURCES.txt'
+[0.900s] running build
+[0.900s] running build_py
+[0.901s] running install
+[0.902s] running install_lib
+[0.903s] running install_data
+[0.904s] running install_egg_info
+[0.906s] removing '/home/markros2/rosproject/install/my_robot_navigation/lib/python3.8/site-packages/my_robot_navigation-0.0.0-py3.8.egg-info' (and everything under it)
+[0.907s] Copying ../../build/my_robot_navigation/my_robot_navigation.egg-info to /home/markros2/rosproject/install/my_robot_navigation/lib/python3.8/site-packages/my_robot_navigation-0.0.0-py3.8.egg-info
+[0.907s] running install_scripts
+[0.925s] Installing initpose script to /home/markros2/rosproject/install/my_robot_navigation/lib/my_robot_navigation
+[0.925s] writing list of installed files to '/home/markros2/rosproject/build/my_robot_navigation/install.log'
+[0.974s] Invoked command in '/home/markros2/rosproject/src/my_robot_navigation' returned '0': PYTHONPATH=/home/markros2/rosproject/install/my_robot_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_navigation build --build-base /home/markros2/rosproject/build/my_robot_navigation/build install --prefix /home/markros2/rosproject/install/my_robot_navigation --record /home/markros2/rosproject/build/my_robot_navigation/install.log --single-version-externally-managed

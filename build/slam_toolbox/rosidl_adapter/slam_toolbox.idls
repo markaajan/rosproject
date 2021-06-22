@@ -1,0 +1,10 @@
+/home/markros2/rosproject/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/Pause.idl
+/home/markros2/rosproject/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/ClearQueue.idl
+/home/markros2/rosproject/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/ToggleInteractive.idl
+/home/markros2/rosproject/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/Clear.idl
+/home/markros2/rosproject/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/SaveMap.idl
+/home/markros2/rosproject/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/LoopClosure.idl
+/home/markros2/rosproject/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/MergeMaps.idl
+/home/markros2/rosproject/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/AddSubmap.idl
+/home/markros2/rosproject/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/DeserializePoseGraph.idl
+/home/markros2/rosproject/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/SerializePoseGraph.idl

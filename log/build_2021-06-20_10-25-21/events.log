@@ -1,0 +1,1595 @@
+[0.000000] (-) TimerEvent: {}
+[0.000108] (my_robot_slam) JobQueued: {'identifier': 'my_robot_slam', 'dependencies': OrderedDict()}
+[0.000137] (slam_toolbox) JobQueued: {'identifier': 'slam_toolbox', 'dependencies': OrderedDict()}
+[0.000157] (my_robot_slam) JobStarted: {'identifier': 'my_robot_slam'}
+[0.017385] (slam_toolbox) JobStarted: {'identifier': 'slam_toolbox'}
+[0.099342] (-) TimerEvent: {}
+[0.199674] (-) TimerEvent: {}
+[0.210863] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'cmake'}
+[0.211067] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '/home/markros2/rosproject/src/slam_toolbox', '-DCMAKE_INSTALL_PREFIX=/home/markros2/rosproject/install/slam_toolbox'], 'cwd': '/home/markros2/rosproject/build/slam_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'markros2'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1836'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/markros2/project/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/markros2'), ('OLDPWD', '/home/markros2/rosproject/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1613'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/markros2/project/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'markros2'), ('JOURNAL_STREAM', '8:48778'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'markros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/markros2-G5-5500:@/tmp/.ICE-unix/1871,unix/markros2-G5-5500:/tmp/.ICE-unix/1871'), ('INVOCATION_ID', '481fcc83058b4361aa19650887036dc5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f3b12076_bd0a_4afe_ac89_78db905411f6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/markros2/project/install/slam_toolbox:/home/markros2/project/install/slam:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/markros2/rosproject/build/slam_toolbox'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/markros2/project/install/slam_toolbox/lib/python3.8/site-packages:/home/markros2/project/install/slam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/markros2/project/install/slam_toolbox:/home/markros2/project/install/slam:/opt/ros/foxy')]), 'shell': False}
+[0.218471] (my_robot_slam) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_slam', 'build', '--build-base', '/home/markros2/rosproject/build/my_robot_slam/build', 'install', '--prefix', '/home/markros2/rosproject/install/my_robot_slam', '--record', '/home/markros2/rosproject/build/my_robot_slam/install.log', '--single-version-externally-managed'], 'cwd': '/home/markros2/rosproject/src/my_robot_slam', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'markros2', 'LC_TIME': 'de_DE.UTF-8', 'SSH_AGENT_PID': '1836', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/markros2/project/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/markros2', 'OLDPWD': '/home/markros2/rosproject/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'MANAGERPID': '1613', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/markros2/project/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'markros2', 'JOURNAL_STREAM': '8:48778', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'markros2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/markros2-G5-5500:@/tmp/.ICE-unix/1871,unix/markros2-G5-5500:/tmp/.ICE-unix/1871', 'INVOCATION_ID': '481fcc83058b4361aa19650887036dc5', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f3b12076_bd0a_4afe_ac89_78db905411f6', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.90', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/markros2/project/install/slam_toolbox:/home/markros2/project/install/slam:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/markros2/rosproject/build/my_robot_slam', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/markros2/rosproject/install/my_robot_slam/lib/python3.8/site-packages:/home/markros2/project/install/slam_toolbox/lib/python3.8/site-packages:/home/markros2/project/install/slam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/markros2/project/install/slam_toolbox'}, 'shell': False}
+[0.299808] (-) TimerEvent: {}
+[0.399716] (slam_toolbox) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.399870] (-) TimerEvent: {}
+[0.402051] (my_robot_slam) StdoutLine: {'line': b'running egg_info\n'}
+[0.402565] (my_robot_slam) StdoutLine: {'line': b'creating ../../build/my_robot_slam/my_robot_slam.egg-info\n'}
+[0.402673] (my_robot_slam) StdoutLine: {'line': b'writing ../../build/my_robot_slam/my_robot_slam.egg-info/PKG-INFO\n'}
+[0.402854] (my_robot_slam) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_slam/my_robot_slam.egg-info/dependency_links.txt\n'}
+[0.402997] (my_robot_slam) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_slam/my_robot_slam.egg-info/entry_points.txt\n'}
+[0.403148] (my_robot_slam) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_slam/my_robot_slam.egg-info/requires.txt\n'}
+[0.403229] (my_robot_slam) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_slam/my_robot_slam.egg-info/top_level.txt\n'}
+[0.406523] (my_robot_slam) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_slam/my_robot_slam.egg-info/SOURCES.txt'\n"}
+[0.443750] (my_robot_slam) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_slam/my_robot_slam.egg-info/SOURCES.txt'\n"}
+[0.444314] (my_robot_slam) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_slam/my_robot_slam.egg-info/SOURCES.txt'\n"}
+[0.444503] (my_robot_slam) StdoutLine: {'line': b'running build\n'}
+[0.444657] (my_robot_slam) StdoutLine: {'line': b'running build_py\n'}
+[0.444741] (my_robot_slam) StdoutLine: {'line': b'creating /home/markros2/rosproject/build/my_robot_slam/build\n'}
+[0.444906] (my_robot_slam) StdoutLine: {'line': b'creating /home/markros2/rosproject/build/my_robot_slam/build/lib\n'}
+[0.444982] (my_robot_slam) StdoutLine: {'line': b'creating /home/markros2/rosproject/build/my_robot_slam/build/lib/my_robot_slam\n'}
+[0.445047] (my_robot_slam) StdoutLine: {'line': b'copying my_robot_slam/__init__.py -> /home/markros2/rosproject/build/my_robot_slam/build/lib/my_robot_slam\n'}
+[0.445115] (my_robot_slam) StdoutLine: {'line': b'running install\n'}
+[0.445792] (my_robot_slam) StdoutLine: {'line': b'running install_lib\n'}
+[0.447310] (my_robot_slam) StdoutLine: {'line': b'creating /home/markros2/rosproject/install/my_robot_slam/lib/python3.8/site-packages/my_robot_slam\n'}
+[0.447417] (my_robot_slam) StdoutLine: {'line': b'copying /home/markros2/rosproject/build/my_robot_slam/build/lib/my_robot_slam/__init__.py -> /home/markros2/rosproject/install/my_robot_slam/lib/python3.8/site-packages/my_robot_slam\n'}
+[0.447757] (my_robot_slam) StdoutLine: {'line': b'byte-compiling /home/markros2/rosproject/install/my_robot_slam/lib/python3.8/site-packages/my_robot_slam/__init__.py to __init__.cpython-38.pyc\n'}
+[0.448626] (my_robot_slam) StdoutLine: {'line': b'running install_data\n'}
+[0.449252] (my_robot_slam) StdoutLine: {'line': b'creating /home/markros2/rosproject/install/my_robot_slam/share/ament_index\n'}
+[0.449372] (my_robot_slam) StdoutLine: {'line': b'creating /home/markros2/rosproject/install/my_robot_slam/share/ament_index/resource_index\n'}
+[0.449531] (my_robot_slam) StdoutLine: {'line': b'creating /home/markros2/rosproject/install/my_robot_slam/share/ament_index/resource_index/packages\n'}
+[0.449602] (my_robot_slam) StdoutLine: {'line': b'copying resource/my_robot_slam -> /home/markros2/rosproject/install/my_robot_slam/share/ament_index/resource_index/packages\n'}
+[0.449665] (my_robot_slam) StdoutLine: {'line': b'copying package.xml -> /home/markros2/rosproject/install/my_robot_slam/share/my_robot_slam\n'}
+[0.449726] (my_robot_slam) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.451958] (my_robot_slam) StdoutLine: {'line': b'Copying ../../build/my_robot_slam/my_robot_slam.egg-info to /home/markros2/rosproject/install/my_robot_slam/lib/python3.8/site-packages/my_robot_slam-0.0.0-py3.8.egg-info\n'}
+[0.452626] (my_robot_slam) StdoutLine: {'line': b'running install_scripts\n'}
+[0.472456] (my_robot_slam) StdoutLine: {'line': b"writing list of installed files to '/home/markros2/rosproject/build/my_robot_slam/install.log'\n"}
+[0.488031] (my_robot_slam) CommandEnded: {'returncode': 0}
+[0.500591] (-) TimerEvent: {}
+[0.516430] (my_robot_slam) JobEnded: {'identifier': 'my_robot_slam', 'rc': 0}
+[0.566800] (slam_toolbox) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.584140] (slam_toolbox) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.600711] (-) TimerEvent: {}
+[0.647846] (slam_toolbox) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.650798] (slam_toolbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.700796] (-) TimerEvent: {}
+[0.706590] (slam_toolbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.718051] (slam_toolbox) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.719097] (slam_toolbox) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.724307] (slam_toolbox) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.786554] (slam_toolbox) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.787581] (slam_toolbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.800913] (-) TimerEvent: {}
+[0.851757] (slam_toolbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.862879] (slam_toolbox) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.863343] (slam_toolbox) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.877634] (slam_toolbox) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.900991] (-) TimerEvent: {}
+[0.916094] (slam_toolbox) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.916337] (slam_toolbox) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.001104] (-) TimerEvent: {}
+[1.101351] (-) TimerEvent: {}
+[1.156431] (slam_toolbox) StdoutLine: {'line': b'-- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)\n'}
+[1.165715] (slam_toolbox) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[1.201437] (-) TimerEvent: {}
+[1.228796] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.247426] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.301599] (-) TimerEvent: {}
+[1.361577] (slam_toolbox) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.396488] (slam_toolbox) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.401698] (-) TimerEvent: {}
+[1.501919] (-) TimerEvent: {}
+[1.514422] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.602042] (-) TimerEvent: {}
+[1.702293] (-) TimerEvent: {}
+[1.742487] (slam_toolbox) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.802380] (-) TimerEvent: {}
+[1.841843] (slam_toolbox) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.847218] (slam_toolbox) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.851254] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.902466] (-) TimerEvent: {}
+[1.936585] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.936815] (slam_toolbox) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.995443] (slam_toolbox) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.995714] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.002567] (-) TimerEvent: {}
+[2.042956] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.043206] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.097187] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.098061] (slam_toolbox) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.102633] (-) TimerEvent: {}
+[2.202819] (-) TimerEvent: {}
+[2.285912] (slam_toolbox) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[2.302905] (-) TimerEvent: {}
+[2.377802] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2: 0.13.10 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[2.399079] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.10 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[2.402967] (-) TimerEvent: {}
+[2.503152] (-) TimerEvent: {}
+[2.603367] (-) TimerEvent: {}
+[2.703618] (-) TimerEvent: {}
+[2.803844] (-) TimerEvent: {}
+[2.812415] (slam_toolbox) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.4 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[2.897219] (slam_toolbox) StdoutLine: {'line': b'-- Found pluginlib: 2.5.3 (/opt/ros/foxy/share/pluginlib/cmake)\n'}
+[2.903938] (-) TimerEvent: {}
+[2.924079] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.10 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[2.938184] (slam_toolbox) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[2.946570] (slam_toolbox) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[2.975822] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.13.10 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)\n'}
+[2.995303] (slam_toolbox) StdoutLine: {'line': b'-- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[3.004042] (-) TimerEvent: {}
+[3.019998] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[3.042247] (slam_toolbox) StdoutLine: {'line': b'-- Found nav2_map_server: 0.4.7 (/opt/ros/foxy/share/nav2_map_server/cmake)\n'}
+[3.048384] (slam_toolbox) StdoutLine: {'line': b'-- Found rviz_common: 8.2.1 (/opt/ros/foxy/share/rviz_common/cmake)\n'}
+[3.104135] (-) TimerEvent: {}
+[3.118186] (slam_toolbox) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[3.124628] (slam_toolbox) StdoutLine: {'line': b'-- Found OGRE\n'}
+[3.124713] (slam_toolbox) StdoutLine: {'line': b'--   static     : OFF\n'}
+[3.124779] (slam_toolbox) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[3.124843] (slam_toolbox) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[3.124905] (slam_toolbox) StdoutLine: {'line': b'--   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[3.124990] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[3.125053] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib\n'}
+[3.125112] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[3.125173] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[3.125232] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[3.125292] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[3.125399] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[3.125487] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[3.151293] (slam_toolbox) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[3.160300] (slam_toolbox) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[3.204221] (-) TimerEvent: {}
+[3.243565] (slam_toolbox) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[3.244409] (slam_toolbox) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[3.304311] (-) TimerEvent: {}
+[3.337073] (slam_toolbox) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[3.337686] (slam_toolbox) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[3.404474] (-) TimerEvent: {}
+[3.444642] (slam_toolbox) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[3.444818] (slam_toolbox) StdoutLine: {'line': b'-- Looking for connect\n'}
+[3.499851] (slam_toolbox) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[3.500083] (slam_toolbox) StdoutLine: {'line': b'-- Looking for remove\n'}
+[3.504566] (-) TimerEvent: {}
+[3.554374] (slam_toolbox) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[3.554556] (slam_toolbox) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[3.604705] (-) TimerEvent: {}
+[3.609203] (slam_toolbox) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[3.609375] (slam_toolbox) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[3.664532] (slam_toolbox) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[3.667211] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[3.667318] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[3.704824] (-) TimerEvent: {}
+[3.736881] (slam_toolbox) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[3.804911] (-) TimerEvent: {}
+[3.832654] (slam_toolbox) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[3.843258] (slam_toolbox) StdoutLine: {'line': b'-- Found rviz_default_plugins: 8.2.1 (/opt/ros/foxy/share/rviz_default_plugins/cmake)\n'}
+[3.905001] (-) TimerEvent: {}
+[4.005260] (-) TimerEvent: {}
+[4.105566] (-) TimerEvent: {}
+[4.205795] (-) TimerEvent: {}
+[4.239891] (slam_toolbox) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system serialization filesystem thread \n'}
+[4.305913] (-) TimerEvent: {}
+[4.348223] (slam_toolbox) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[4.353624] (slam_toolbox) StdoutLine: {'line': b'-- Found CSPARSE: /usr/include/suitesparse  \n'}
+[4.393756] (slam_toolbox) StdoutLine: {'line': b'-- Found CHOLMOD: /usr/include/suitesparse  \n'}
+[4.399229] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[4.405982] (-) TimerEvent: {}
+[4.454764] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_ - not found\n'}
+[4.488278] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[4.506078] (-) TimerEvent: {}
+[4.554967] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_ - found\n'}
+[4.555389] (slam_toolbox) StdoutLine: {'line': b'-- Found BLAS: /usr/lib/x86_64-linux-gnu/libblas.so  \n'}
+[4.557554] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_\n'}
+[4.606187] (-) TimerEvent: {}
+[4.620896] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_ - not found\n'}
+[4.630693] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_\n'}
+[4.706311] (-) TimerEvent: {}
+[4.710326] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_ - found\n'}
+[4.710503] (slam_toolbox) StdoutLine: {'line': b'-- A library with LAPACK API found.\n'}
+[4.717907] (slam_toolbox) StdoutLine: {'line': b'-- Found installed version of Eigen: /usr/lib/cmake/eigen3\n'}
+[4.725081] (slam_toolbox) StdoutLine: {'line': b'-- Found required Ceres dependency: Eigen version 3.3.7 in /usr/include/eigen3\n'}
+[4.728690] (slam_toolbox) StdoutLine: {'line': b'-- Found required Ceres dependency: glog\n'}
+[4.735850] (slam_toolbox) StdoutLine: {'line': b'-- Found installed version of gflags: /usr/lib/x86_64-linux-gnu/cmake/gflags\n'}
+[4.735952] (slam_toolbox) StdoutLine: {'line': b'-- Detected gflags version: 2.2.2\n'}
+[4.739732] (slam_toolbox) StdoutLine: {'line': b'-- Found required Ceres dependency: gflags\n'}
+[4.741808] (slam_toolbox) StdoutLine: {'line': b'-- Found Ceres version: 1.14.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]\n'}
+[4.775018] (slam_toolbox) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") \n'}
+[4.806386] (-) TimerEvent: {}
+[4.906588] (-) TimerEvent: {}
+[5.006914] (-) TimerEvent: {}
+[5.047167] (slam_toolbox) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[5.106964] (-) TimerEvent: {}
+[5.207187] (-) TimerEvent: {}
+[5.307409] (-) TimerEvent: {}
+[5.353571] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.407534] (-) TimerEvent: {}
+[5.498826] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.507639] (-) TimerEvent: {}
+[5.523615] (slam_toolbox) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[5.527468] (slam_toolbox) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[5.558551] (slam_toolbox) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[5.558799] (slam_toolbox) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.558878] (slam_toolbox) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[5.558943] (slam_toolbox) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[5.576816] (slam_toolbox) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.607728] (-) TimerEvent: {}
+[5.707973] (-) TimerEvent: {}
+[5.742623] (slam_toolbox) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.808060] (-) TimerEvent: {}
+[5.908324] (-) TimerEvent: {}
+[6.008569] (-) TimerEvent: {}
+[6.108863] (-) TimerEvent: {}
+[6.124734] (slam_toolbox) StdoutLine: {'line': b'-- Generating done\n'}
+[6.128687] (slam_toolbox) StdoutLine: {'line': b'-- Build files have been written to: /home/markros2/rosproject/build/slam_toolbox\n'}
+[6.142770] (slam_toolbox) CommandEnded: {'returncode': 0}
+[6.143525] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'build'}
+[6.144393] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/markros2/rosproject/build/slam_toolbox', '--', '-j12', '-l12'], 'cwd': '/home/markros2/rosproject/build/slam_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'markros2'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1836'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/markros2/project/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/markros2'), ('OLDPWD', '/home/markros2/rosproject/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1613'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/markros2/project/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'markros2'), ('JOURNAL_STREAM', '8:48778'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'markros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/markros2-G5-5500:@/tmp/.ICE-unix/1871,unix/markros2-G5-5500:/tmp/.ICE-unix/1871'), ('INVOCATION_ID', '481fcc83058b4361aa19650887036dc5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f3b12076_bd0a_4afe_ac89_78db905411f6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/markros2/project/install/slam_toolbox:/home/markros2/project/install/slam:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/markros2/rosproject/build/slam_toolbox'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/markros2/project/install/slam_toolbox/lib/python3.8/site-packages:/home/markros2/project/install/slam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/markros2/project/install/slam_toolbox:/home/markros2/project/install/slam:/opt/ros/foxy')]), 'shell': False}
+[6.184131] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target kartoSlamToolbox\x1b[0m\n'}
+[6.184404] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target slam_toolbox__cpp\x1b[0m\n'}
+[6.184642] (slam_toolbox) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.193891] (slam_toolbox) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.208942] (-) TimerEvent: {}
+[6.309199] (-) TimerEvent: {}
+[6.409514] (-) TimerEvent: {}
+[6.509718] (-) TimerEvent: {}
+[6.609926] (-) TimerEvent: {}
+[6.698511] (slam_toolbox) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o\x1b[0m\n'}
+[6.702018] (slam_toolbox) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o\x1b[0m\n'}
+[6.710016] (-) TimerEvent: {}
+[6.810225] (-) TimerEvent: {}
+[6.910488] (-) TimerEvent: {}
+[6.950428] (slam_toolbox) StdoutLine: {'line': b'[  3%] Built target slam_toolbox__cpp\n'}
+[6.964269] (slam_toolbox) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.964505] (slam_toolbox) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.964697] (slam_toolbox) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.010587] (-) TimerEvent: {}
+[7.027934] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target slam_toolbox__rosidl_generator_c\x1b[0m\n'}
+[7.054963] (slam_toolbox) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear__functions.c.o\x1b[0m\n'}
+[7.055789] (slam_toolbox) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/pause__functions.c.o\x1b[0m\n'}
+[7.055950] (slam_toolbox) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear_queue__functions.c.o\x1b[0m\n'}
+[7.056062] (slam_toolbox) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/toggle_interactive__functions.c.o\x1b[0m\n'}
+[7.059281] (slam_toolbox) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/save_map__functions.c.o\x1b[0m\n'}
+[7.061271] (slam_toolbox) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/loop_closure__functions.c.o\x1b[0m\n'}
+[7.064585] (slam_toolbox) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/merge_maps__functions.c.o\x1b[0m\n'}
+[7.110681] (-) TimerEvent: {}
+[7.172519] (slam_toolbox) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/add_submap__functions.c.o\x1b[0m\n'}
+[7.176010] (slam_toolbox) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/deserialize_pose_graph__functions.c.o\x1b[0m\n'}
+[7.176157] (slam_toolbox) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/serialize_pose_graph__functions.c.o\x1b[0m\n'}
+[7.210781] (-) TimerEvent: {}
+[7.250947] (slam_toolbox) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libslam_toolbox__rosidl_generator_c.so\x1b[0m\n'}
+[7.310874] (-) TimerEvent: {}
+[7.345515] (slam_toolbox) StdoutLine: {'line': b'[ 14%] Built target slam_toolbox__rosidl_generator_c\n'}
+[7.355575] (slam_toolbox) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.355790] (slam_toolbox) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.410973] (-) TimerEvent: {}
+[7.511247] (-) TimerEvent: {}
+[7.567176] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_cpp\x1b[0m\n'}
+[7.592286] (slam_toolbox) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/save_map__type_support.cpp.o\x1b[0m\n'}
+[7.595067] (slam_toolbox) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/toggle_interactive__type_support.cpp.o\x1b[0m\n'}
+[7.595294] (slam_toolbox) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/pause__type_support.cpp.o\x1b[0m\n'}
+[7.595470] (slam_toolbox) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/clear__type_support.cpp.o\x1b[0m\n'}
+[7.595675] (slam_toolbox) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/clear_queue__type_support.cpp.o\x1b[0m\n'}
+[7.604654] (slam_toolbox) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/loop_closure__type_support.cpp.o\x1b[0m\n'}
+[7.611339] (-) TimerEvent: {}
+[7.711608] (-) TimerEvent: {}
+[7.811951] (-) TimerEvent: {}
+[7.912251] (-) TimerEvent: {}
+[7.969003] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[8.005290] (slam_toolbox) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/pause__type_support.cpp.o\x1b[0m\n'}
+[8.012357] (-) TimerEvent: {}
+[8.032262] (slam_toolbox) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/merge_maps__type_support.cpp.o\x1b[0m\n'}
+[8.037171] (slam_toolbox) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/clear_queue__type_support.cpp.o\x1b[0m\n'}
+[8.066257] (slam_toolbox) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/add_submap__type_support.cpp.o\x1b[0m\n'}
+[8.067146] (slam_toolbox) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/deserialize_pose_graph__type_support.cpp.o\x1b[0m\n'}
+[8.071997] (slam_toolbox) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/toggle_interactive__type_support.cpp.o\x1b[0m\n'}
+[8.085631] (slam_toolbox) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/clear__type_support.cpp.o\x1b[0m\n'}
+[8.112457] (-) TimerEvent: {}
+[8.120408] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[8.130473] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_c\x1b[0m\n'}
+[8.156798] (slam_toolbox) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/pause__type_support.cpp.o\x1b[0m\n'}
+[8.204561] (slam_toolbox) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/pause__type_support.cpp.o\x1b[0m\n'}
+[8.212560] (-) TimerEvent: {}
+[8.221888] (slam_toolbox) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/clear_queue__type_support.cpp.o\x1b[0m\n'}
+[8.272296] (slam_toolbox) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/toggle_interactive__type_support.cpp.o\x1b[0m\n'}
+[8.312677] (-) TimerEvent: {}
+[8.320454] (slam_toolbox) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/clear__type_support.cpp.o\x1b[0m\n'}
+[8.366209] (slam_toolbox) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/save_map__type_support.cpp.o\x1b[0m\n'}
+[8.411223] (slam_toolbox) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/loop_closure__type_support.cpp.o\x1b[0m\n'}
+[8.412764] (-) TimerEvent: {}
+[8.458698] (slam_toolbox) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/merge_maps__type_support.cpp.o\x1b[0m\n'}
+[8.462219] (slam_toolbox) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/save_map__type_support.cpp.o\x1b[0m\n'}
+[8.504134] (slam_toolbox) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/add_submap__type_support.cpp.o\x1b[0m\n'}
+[8.512873] (-) TimerEvent: {}
+[8.518187] (slam_toolbox) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/loop_closure__type_support.cpp.o\x1b[0m\n'}
+[8.533759] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[8.536477] (slam_toolbox) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/deserialize_pose_graph__type_support.cpp.o\x1b[0m\n'}
+[8.540525] (slam_toolbox) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/serialize_pose_graph__type_support.cpp.o\x1b[0m\n'}
+[8.552645] (slam_toolbox) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/serialize_pose_graph__type_support.cpp.o\x1b[0m\n'}
+[8.555555] (slam_toolbox) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/clear_queue__type_support.cpp.o\x1b[0m\n'}
+[8.556119] (slam_toolbox) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/merge_maps__type_support.cpp.o\x1b[0m\n'}
+[8.573111] (slam_toolbox) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/add_submap__type_support.cpp.o\x1b[0m\n'}
+[8.579093] (slam_toolbox) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/pause__type_support.c.o\x1b[0m\n'}
+[8.583875] (slam_toolbox) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/clear_queue__type_support.c.o\x1b[0m\n'}
+[8.584130] (slam_toolbox) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.612983] (-) TimerEvent: {}
+[8.639968] (slam_toolbox) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.cpp.o\x1b[0m\n'}
+[8.654554] (slam_toolbox) StdoutLine: {'line': b'[ 40%] Built target slam_toolbox__rosidl_typesupport_c\n'}
+[8.666707] (slam_toolbox) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/toggle_interactive__type_support.c.o\x1b[0m\n'}
+[8.669711] (slam_toolbox) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/serialize_pose_graph__type_support.cpp.o\x1b[0m\n'}
+[8.713100] (-) TimerEvent: {}
+[8.730080] (slam_toolbox) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/clear__type_support.c.o\x1b[0m\n'}
+[8.791679] (slam_toolbox) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/save_map__type_support.c.o\x1b[0m\n'}
+[8.813211] (-) TimerEvent: {}
+[8.853383] (slam_toolbox) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/loop_closure__type_support.c.o\x1b[0m\n'}
+[8.906991] (slam_toolbox) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/toggle_interactive__type_support.cpp.o\x1b[0m\n'}
+[8.913337] (-) TimerEvent: {}
+[8.915657] (slam_toolbox) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/merge_maps__type_support.c.o\x1b[0m\n'}
+[8.973902] (slam_toolbox) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/add_submap__type_support.c.o\x1b[0m\n'}
+[8.984863] (slam_toolbox) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.c.o\x1b[0m\n'}
+[9.002393] (slam_toolbox) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/serialize_pose_graph__type_support.c.o\x1b[0m\n'}
+[9.013443] (-) TimerEvent: {}
+[9.022725] (slam_toolbox) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.033882] (slam_toolbox) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/clear__type_support.cpp.o\x1b[0m\n'}
+[9.047734] (slam_toolbox) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/loop_closure__type_support.cpp.o\x1b[0m\n'}
+[9.047989] (slam_toolbox) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/save_map__type_support.cpp.o\x1b[0m\n'}
+[9.060456] (slam_toolbox) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libslam_toolbox__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.061748] (slam_toolbox) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/merge_maps__type_support.cpp.o\x1b[0m\n'}
+[9.102745] (slam_toolbox) StdoutLine: {'line': b'[ 52%] Built target slam_toolbox__rosidl_typesupport_cpp\n'}
+[9.113680] (-) TimerEvent: {}
+[9.116642] (slam_toolbox) StdoutLine: {'line': b'[ 52%] Built target slam_toolbox__rosidl_typesupport_introspection_c\n'}
+[9.122856] (slam_toolbox) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/add_submap__type_support.cpp.o\x1b[0m\n'}
+[9.127764] (slam_toolbox) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/deserialize_pose_graph__type_support.cpp.o\x1b[0m\n'}
+[9.138242] (slam_toolbox) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/serialize_pose_graph__type_support.cpp.o\x1b[0m\n'}
+[9.151979] (slam_toolbox) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.213788] (-) TimerEvent: {}
+[9.255833] (slam_toolbox) StdoutLine: {'line': b'[ 55%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp\n'}
+[9.313893] (-) TimerEvent: {}
+[9.414249] (-) TimerEvent: {}
+[9.514652] (-) TimerEvent: {}
+[9.614964] (-) TimerEvent: {}
+[9.715230] (-) TimerEvent: {}
+[9.815537] (-) TimerEvent: {}
+[9.863347] (slam_toolbox) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.915660] (-) TimerEvent: {}
+[9.964342] (slam_toolbox) StdoutLine: {'line': b'[ 56%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp\n'}
+[9.974812] (slam_toolbox) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.015752] (-) TimerEvent: {}
+[10.116017] (-) TimerEvent: {}
+[10.216307] (-) TimerEvent: {}
+[10.316525] (-) TimerEvent: {}
+[10.416777] (-) TimerEvent: {}
+[10.516990] (-) TimerEvent: {}
+[10.617265] (-) TimerEvent: {}
+[10.652816] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[10.690494] (slam_toolbox) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/toggle_interactive__type_support_c.cpp.o\x1b[0m\n'}
+[10.690803] (slam_toolbox) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/pause__type_support_c.cpp.o\x1b[0m\n'}
+[10.691003] (slam_toolbox) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/clear_queue__type_support_c.cpp.o\x1b[0m\n'}
+[10.691565] (slam_toolbox) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/save_map__type_support_c.cpp.o\x1b[0m\n'}
+[10.691700] (slam_toolbox) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/clear__type_support_c.cpp.o\x1b[0m\n'}
+[10.692401] (slam_toolbox) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/merge_maps__type_support_c.cpp.o\x1b[0m\n'}
+[10.692862] (slam_toolbox) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/add_submap__type_support_c.cpp.o\x1b[0m\n'}
+[10.695138] (slam_toolbox) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/deserialize_pose_graph__type_support_c.cpp.o\x1b[0m\n'}
+[10.695693] (slam_toolbox) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/loop_closure__type_support_c.cpp.o\x1b[0m\n'}
+[10.701370] (slam_toolbox) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/serialize_pose_graph__type_support_c.cpp.o\x1b[0m\n'}
+[10.717380] (-) TimerEvent: {}
+[10.817707] (-) TimerEvent: {}
+[10.918048] (-) TimerEvent: {}
+[11.018394] (-) TimerEvent: {}
+[11.118734] (-) TimerEvent: {}
+[11.219070] (-) TimerEvent: {}
+[11.319440] (-) TimerEvent: {}
+[11.351916] (slam_toolbox) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.419535] (-) TimerEvent: {}
+[11.437607] (slam_toolbox) StdoutLine: {'line': b'[ 65%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c\n'}
+[11.447808] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target slam_toolbox\x1b[0m\n'}
+[11.457034] (slam_toolbox) StdoutLine: {'line': b'[ 65%] Built target slam_toolbox\n'}
+[11.465690] (slam_toolbox) StdoutLine: {'line': b'[ 65%] \x1b[34m\x1b[1mGenerating rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp\x1b[0m\n'}
+[11.465932] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target slam_toolbox__py\x1b[0m\n'}
+[11.475853] (slam_toolbox) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.483874] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target SlamToolboxPlugin\x1b[0m\n'}
+[11.519619] (-) TimerEvent: {}
+[11.619867] (-) TimerEvent: {}
+[11.720136] (-) TimerEvent: {}
+[11.820426] (-) TimerEvent: {}
+[11.920674] (-) TimerEvent: {}
+[11.943414] (slam_toolbox) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/SlamToolboxPlugin.dir/rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp.o\x1b[0m\n'}
+[11.943632] (slam_toolbox) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/SlamToolboxPlugin.dir/rviz_plugin/slam_toolbox_rviz_plugin.cpp.o\x1b[0m\n'}
+[12.020799] (-) TimerEvent: {}
+[12.121067] (-) TimerEvent: {}
+[12.221348] (-) TimerEvent: {}
+[12.321643] (-) TimerEvent: {}
+[12.421891] (-) TimerEvent: {}
+[12.522115] (-) TimerEvent: {}
+[12.622303] (-) TimerEvent: {}
+[12.722526] (-) TimerEvent: {}
+[12.822765] (-) TimerEvent: {}
+[12.922989] (-) TimerEvent: {}
+[13.023239] (-) TimerEvent: {}
+[13.123493] (-) TimerEvent: {}
+[13.223745] (-) TimerEvent: {}
+[13.252537] (slam_toolbox) StdoutLine: {'line': b'[ 68%] Built target slam_toolbox__py\n'}
+[13.261256] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target slam_toolbox__python\x1b[0m\n'}
+[13.323829] (-) TimerEvent: {}
+[13.377961] (slam_toolbox) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_toggle_interactive_s.c.o\x1b[0m\n'}
+[13.378260] (slam_toolbox) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_pause_s.c.o\x1b[0m\n'}
+[13.378428] (slam_toolbox) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_clear_queue_s.c.o\x1b[0m\n'}
+[13.378619] (slam_toolbox) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_clear_s.c.o\x1b[0m\n'}
+[13.378755] (slam_toolbox) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_loop_closure_s.c.o\x1b[0m\n'}
+[13.378934] (slam_toolbox) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_save_map_s.c.o\x1b[0m\n'}
+[13.379076] (slam_toolbox) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_merge_maps_s.c.o\x1b[0m\n'}
+[13.389983] (slam_toolbox) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_add_submap_s.c.o\x1b[0m\n'}
+[13.423953] (-) TimerEvent: {}
+[13.524322] (-) TimerEvent: {}
+[13.552346] (slam_toolbox) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_deserialize_pose_graph_s.c.o\x1b[0m\n'}
+[13.561118] (slam_toolbox) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_serialize_pose_graph_s.c.o\x1b[0m\n'}
+[13.624429] (-) TimerEvent: {}
+[13.674654] (slam_toolbox) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/slam_toolbox/libslam_toolbox__python.so\x1b[0m\n'}
+[13.718979] (slam_toolbox) StdoutLine: {'line': b'[ 76%] Built target slam_toolbox__python\n'}
+[13.724540] (-) TimerEvent: {}
+[13.727870] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[13.728105] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[13.731630] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[13.747061] (slam_toolbox) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[13.750356] (slam_toolbox) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[13.756646] (slam_toolbox) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[13.824648] (-) TimerEvent: {}
+[13.924968] (-) TimerEvent: {}
+[14.025291] (-) TimerEvent: {}
+[14.091507] (slam_toolbox) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.125402] (-) TimerEvent: {}
+[14.160177] (slam_toolbox) StdoutLine: {'line': b'[ 78%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext\n'}
+[14.225521] (-) TimerEvent: {}
+[14.261151] (slam_toolbox) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.268897] (slam_toolbox) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.302965] (slam_toolbox) StdoutLine: {'line': b'[ 79%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext\n'}
+[14.316038] (slam_toolbox) StdoutLine: {'line': b'[ 79%] Built target slam_toolbox__rosidl_typesupport_c__pyext\n'}
+[14.325639] (-) TimerEvent: {}
+[14.425967] (-) TimerEvent: {}
+[14.526290] (-) TimerEvent: {}
+[14.626624] (-) TimerEvent: {}
+[14.726953] (-) TimerEvent: {}
+[14.827271] (-) TimerEvent: {}
+[14.927584] (-) TimerEvent: {}
+[15.027898] (-) TimerEvent: {}
+[15.128202] (-) TimerEvent: {}
+[15.228579] (-) TimerEvent: {}
+[15.328886] (-) TimerEvent: {}
+[15.429203] (-) TimerEvent: {}
+[15.529522] (-) TimerEvent: {}
+[15.629839] (-) TimerEvent: {}
+[15.730161] (-) TimerEvent: {}
+[15.830490] (-) TimerEvent: {}
+[15.930795] (-) TimerEvent: {}
+[16.031115] (-) TimerEvent: {}
+[16.131411] (-) TimerEvent: {}
+[16.231714] (-) TimerEvent: {}
+[16.332011] (-) TimerEvent: {}
+[16.432300] (-) TimerEvent: {}
+[16.532591] (-) TimerEvent: {}
+[16.632884] (-) TimerEvent: {}
+[16.733179] (-) TimerEvent: {}
+[16.833476] (-) TimerEvent: {}
+[16.933768] (-) TimerEvent: {}
+[17.034067] (-) TimerEvent: {}
+[17.134369] (-) TimerEvent: {}
+[17.234665] (-) TimerEvent: {}
+[17.334960] (-) TimerEvent: {}
+[17.435253] (-) TimerEvent: {}
+[17.535581] (-) TimerEvent: {}
+[17.635874] (-) TimerEvent: {}
+[17.736165] (-) TimerEvent: {}
+[17.836467] (-) TimerEvent: {}
+[17.936802] (-) TimerEvent: {}
+[18.037186] (-) TimerEvent: {}
+[18.137480] (-) TimerEvent: {}
+[18.237805] (-) TimerEvent: {}
+[18.338131] (-) TimerEvent: {}
+[18.438429] (-) TimerEvent: {}
+[18.538709] (-) TimerEvent: {}
+[18.638992] (-) TimerEvent: {}
+[18.739278] (-) TimerEvent: {}
+[18.839560] (-) TimerEvent: {}
+[18.939853] (-) TimerEvent: {}
+[19.040132] (-) TimerEvent: {}
+[19.140425] (-) TimerEvent: {}
+[19.240723] (-) TimerEvent: {}
+[19.341026] (-) TimerEvent: {}
+[19.441345] (-) TimerEvent: {}
+[19.541658] (-) TimerEvent: {}
+[19.642011] (-) TimerEvent: {}
+[19.742306] (-) TimerEvent: {}
+[19.842633] (-) TimerEvent: {}
+[19.942923] (-) TimerEvent: {}
+[20.043212] (-) TimerEvent: {}
+[20.143501] (-) TimerEvent: {}
+[20.243790] (-) TimerEvent: {}
+[20.344081] (-) TimerEvent: {}
+[20.444371] (-) TimerEvent: {}
+[20.544661] (-) TimerEvent: {}
+[20.644973] (-) TimerEvent: {}
+[20.745264] (-) TimerEvent: {}
+[20.845556] (-) TimerEvent: {}
+[20.945843] (-) TimerEvent: {}
+[21.046153] (-) TimerEvent: {}
+[21.146495] (-) TimerEvent: {}
+[21.246828] (-) TimerEvent: {}
+[21.347122] (-) TimerEvent: {}
+[21.447407] (-) TimerEvent: {}
+[21.547693] (-) TimerEvent: {}
+[21.647976] (-) TimerEvent: {}
+[21.748269] (-) TimerEvent: {}
+[21.848566] (-) TimerEvent: {}
+[21.948858] (-) TimerEvent: {}
+[22.049156] (-) TimerEvent: {}
+[22.149456] (-) TimerEvent: {}
+[22.249790] (-) TimerEvent: {}
+[22.350083] (-) TimerEvent: {}
+[22.450380] (-) TimerEvent: {}
+[22.550674] (-) TimerEvent: {}
+[22.650992] (-) TimerEvent: {}
+[22.751486] (-) TimerEvent: {}
+[22.851776] (-) TimerEvent: {}
+[22.952059] (-) TimerEvent: {}
+[23.052370] (-) TimerEvent: {}
+[23.152652] (-) TimerEvent: {}
+[23.252988] (-) TimerEvent: {}
+[23.353271] (-) TimerEvent: {}
+[23.453561] (-) TimerEvent: {}
+[23.553850] (-) TimerEvent: {}
+[23.654290] (-) TimerEvent: {}
+[23.754542] (-) TimerEvent: {}
+[23.854757] (-) TimerEvent: {}
+[23.954974] (-) TimerEvent: {}
+[24.055235] (-) TimerEvent: {}
+[24.155453] (-) TimerEvent: {}
+[24.255721] (-) TimerEvent: {}
+[24.355969] (-) TimerEvent: {}
+[24.456228] (-) TimerEvent: {}
+[24.556484] (-) TimerEvent: {}
+[24.656715] (-) TimerEvent: {}
+[24.756965] (-) TimerEvent: {}
+[24.857216] (-) TimerEvent: {}
+[24.957470] (-) TimerEvent: {}
+[25.057721] (-) TimerEvent: {}
+[25.157973] (-) TimerEvent: {}
+[25.258191] (-) TimerEvent: {}
+[25.358489] (-) TimerEvent: {}
+[25.458706] (-) TimerEvent: {}
+[25.559008] (-) TimerEvent: {}
+[25.659365] (-) TimerEvent: {}
+[25.759616] (-) TimerEvent: {}
+[25.859866] (-) TimerEvent: {}
+[25.960161] (-) TimerEvent: {}
+[26.060413] (-) TimerEvent: {}
+[26.160631] (-) TimerEvent: {}
+[26.260898] (-) TimerEvent: {}
+[26.361153] (-) TimerEvent: {}
+[26.461411] (-) TimerEvent: {}
+[26.462623] (slam_toolbox) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libSlamToolboxPlugin.so\x1b[0m\n'}
+[26.561511] (-) TimerEvent: {}
+[26.661789] (-) TimerEvent: {}
+[26.762093] (-) TimerEvent: {}
+[26.862415] (-) TimerEvent: {}
+[26.962840] (-) TimerEvent: {}
+[27.063176] (-) TimerEvent: {}
+[27.163499] (-) TimerEvent: {}
+[27.263822] (-) TimerEvent: {}
+[27.364184] (-) TimerEvent: {}
+[27.464579] (-) TimerEvent: {}
+[27.564918] (-) TimerEvent: {}
+[27.665244] (-) TimerEvent: {}
+[27.672060] (slam_toolbox) StdoutLine: {'line': b'[ 79%] Built target SlamToolboxPlugin\n'}
+[27.765330] (-) TimerEvent: {}
+[27.865553] (-) TimerEvent: {}
+[27.965926] (-) TimerEvent: {}
+[28.066211] (-) TimerEvent: {}
+[28.166466] (-) TimerEvent: {}
+[28.266734] (-) TimerEvent: {}
+[28.356359] (slam_toolbox) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libkartoSlamToolbox.so\x1b[0m\n'}
+[28.366820] (-) TimerEvent: {}
+[28.467096] (-) TimerEvent: {}
+[28.567378] (-) TimerEvent: {}
+[28.667685] (-) TimerEvent: {}
+[28.670495] (slam_toolbox) StdoutLine: {'line': b'[ 80%] Built target kartoSlamToolbox\n'}
+[28.679082] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ceres_solver_plugin\x1b[0m\n'}
+[28.679229] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target toolbox_common\x1b[0m\n'}
+[28.736613] (slam_toolbox) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/ceres_solver_plugin.dir/solvers/ceres_solver.cpp.o\x1b[0m\n'}
+[28.767808] (-) TimerEvent: {}
+[28.841089] (slam_toolbox) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/map_saver.cpp.o\x1b[0m\n'}
+[28.841267] (slam_toolbox) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/slam_toolbox_common.cpp.o\x1b[0m\n'}
+[28.841776] (slam_toolbox) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/loop_closure_assistant.cpp.o\x1b[0m\n'}
+[28.845018] (slam_toolbox) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/laser_utils.cpp.o\x1b[0m\n'}
+[28.845436] (slam_toolbox) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/slam_mapper.cpp.o\x1b[0m\n'}
+[28.867913] (-) TimerEvent: {}
+[28.968238] (-) TimerEvent: {}
+[29.068574] (-) TimerEvent: {}
+[29.168924] (-) TimerEvent: {}
+[29.269285] (-) TimerEvent: {}
+[29.369664] (-) TimerEvent: {}
+[29.470028] (-) TimerEvent: {}
+[29.570397] (-) TimerEvent: {}
+[29.670741] (-) TimerEvent: {}
+[29.771072] (-) TimerEvent: {}
+[29.871403] (-) TimerEvent: {}
+[29.971739] (-) TimerEvent: {}
+[30.072065] (-) TimerEvent: {}
+[30.172377] (-) TimerEvent: {}
+[30.272696] (-) TimerEvent: {}
+[30.373009] (-) TimerEvent: {}
+[30.473336] (-) TimerEvent: {}
+[30.573661] (-) TimerEvent: {}
+[30.674054] (-) TimerEvent: {}
+[30.774402] (-) TimerEvent: {}
+[30.874759] (-) TimerEvent: {}
+[30.975090] (-) TimerEvent: {}
+[31.075415] (-) TimerEvent: {}
+[31.175727] (-) TimerEvent: {}
+[31.276054] (-) TimerEvent: {}
+[31.376369] (-) TimerEvent: {}
+[31.476683] (-) TimerEvent: {}
+[31.576995] (-) TimerEvent: {}
+[31.677309] (-) TimerEvent: {}
+[31.777627] (-) TimerEvent: {}
+[31.877952] (-) TimerEvent: {}
+[31.978277] (-) TimerEvent: {}
+[32.078597] (-) TimerEvent: {}
+[32.178916] (-) TimerEvent: {}
+[32.279234] (-) TimerEvent: {}
+[32.379561] (-) TimerEvent: {}
+[32.479878] (-) TimerEvent: {}
+[32.580194] (-) TimerEvent: {}
+[32.680527] (-) TimerEvent: {}
+[32.780875] (-) TimerEvent: {}
+[32.881205] (-) TimerEvent: {}
+[32.981525] (-) TimerEvent: {}
+[33.081855] (-) TimerEvent: {}
+[33.182212] (-) TimerEvent: {}
+[33.282576] (-) TimerEvent: {}
+[33.382904] (-) TimerEvent: {}
+[33.483220] (-) TimerEvent: {}
+[33.583541] (-) TimerEvent: {}
+[33.683856] (-) TimerEvent: {}
+[33.784169] (-) TimerEvent: {}
+[33.884498] (-) TimerEvent: {}
+[33.984847] (-) TimerEvent: {}
+[34.085180] (-) TimerEvent: {}
+[34.185505] (-) TimerEvent: {}
+[34.285825] (-) TimerEvent: {}
+[34.386159] (-) TimerEvent: {}
+[34.486515] (-) TimerEvent: {}
+[34.586842] (-) TimerEvent: {}
+[34.687204] (-) TimerEvent: {}
+[34.788480] (-) TimerEvent: {}
+[34.888796] (-) TimerEvent: {}
+[34.989115] (-) TimerEvent: {}
+[35.089434] (-) TimerEvent: {}
+[35.189747] (-) TimerEvent: {}
+[35.290053] (-) TimerEvent: {}
+[35.390371] (-) TimerEvent: {}
+[35.490680] (-) TimerEvent: {}
+[35.590992] (-) TimerEvent: {}
+[35.691298] (-) TimerEvent: {}
+[35.791602] (-) TimerEvent: {}
+[35.891928] (-) TimerEvent: {}
+[35.992298] (-) TimerEvent: {}
+[36.092630] (-) TimerEvent: {}
+[36.192975] (-) TimerEvent: {}
+[36.293378] (-) TimerEvent: {}
+[36.393705] (-) TimerEvent: {}
+[36.494029] (-) TimerEvent: {}
+[36.594297] (-) TimerEvent: {}
+[36.694607] (-) TimerEvent: {}
+[36.794923] (-) TimerEvent: {}
+[36.895238] (-) TimerEvent: {}
+[36.995594] (-) TimerEvent: {}
+[37.096226] (-) TimerEvent: {}
+[37.196648] (-) TimerEvent: {}
+[37.296979] (-) TimerEvent: {}
+[37.397297] (-) TimerEvent: {}
+[37.497607] (-) TimerEvent: {}
+[37.597912] (-) TimerEvent: {}
+[37.698206] (-) TimerEvent: {}
+[37.798521] (-) TimerEvent: {}
+[37.898830] (-) TimerEvent: {}
+[37.999152] (-) TimerEvent: {}
+[38.099450] (-) TimerEvent: {}
+[38.199767] (-) TimerEvent: {}
+[38.300102] (-) TimerEvent: {}
+[38.400422] (-) TimerEvent: {}
+[38.500728] (-) TimerEvent: {}
+[38.601044] (-) TimerEvent: {}
+[38.701368] (-) TimerEvent: {}
+[38.801693] (-) TimerEvent: {}
+[38.901988] (-) TimerEvent: {}
+[39.002288] (-) TimerEvent: {}
+[39.102607] (-) TimerEvent: {}
+[39.202905] (-) TimerEvent: {}
+[39.303215] (-) TimerEvent: {}
+[39.403526] (-) TimerEvent: {}
+[39.503828] (-) TimerEvent: {}
+[39.604128] (-) TimerEvent: {}
+[39.704434] (-) TimerEvent: {}
+[39.804740] (-) TimerEvent: {}
+[39.905035] (-) TimerEvent: {}
+[40.005329] (-) TimerEvent: {}
+[40.105649] (-) TimerEvent: {}
+[40.205947] (-) TimerEvent: {}
+[40.306267] (-) TimerEvent: {}
+[40.406577] (-) TimerEvent: {}
+[40.506872] (-) TimerEvent: {}
+[40.607168] (-) TimerEvent: {}
+[40.707463] (-) TimerEvent: {}
+[40.807756] (-) TimerEvent: {}
+[40.908056] (-) TimerEvent: {}
+[41.008348] (-) TimerEvent: {}
+[41.108648] (-) TimerEvent: {}
+[41.150959] (slam_toolbox) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX shared library libceres_solver_plugin.so\x1b[0m\n'}
+[41.208796] (-) TimerEvent: {}
+[41.309184] (-) TimerEvent: {}
+[41.409601] (-) TimerEvent: {}
+[41.510213] (-) TimerEvent: {}
+[41.516563] (slam_toolbox) StdoutLine: {'line': b'[ 86%] Built target ceres_solver_plugin\n'}
+[41.610297] (-) TimerEvent: {}
+[41.710730] (-) TimerEvent: {}
+[41.811191] (-) TimerEvent: {}
+[41.911560] (-) TimerEvent: {}
+[42.011859] (-) TimerEvent: {}
+[42.112573] (-) TimerEvent: {}
+[42.212868] (-) TimerEvent: {}
+[42.313167] (-) TimerEvent: {}
+[42.413465] (-) TimerEvent: {}
+[42.513759] (-) TimerEvent: {}
+[42.614050] (-) TimerEvent: {}
+[42.714308] (-) TimerEvent: {}
+[42.814634] (-) TimerEvent: {}
+[42.914939] (-) TimerEvent: {}
+[43.015238] (-) TimerEvent: {}
+[43.115534] (-) TimerEvent: {}
+[43.215830] (-) TimerEvent: {}
+[43.316169] (-) TimerEvent: {}
+[43.416431] (-) TimerEvent: {}
+[43.516707] (-) TimerEvent: {}
+[43.616953] (-) TimerEvent: {}
+[43.717192] (-) TimerEvent: {}
+[43.817423] (-) TimerEvent: {}
+[43.917688] (-) TimerEvent: {}
+[44.017929] (-) TimerEvent: {}
+[44.118290] (-) TimerEvent: {}
+[44.218510] (-) TimerEvent: {}
+[44.318735] (-) TimerEvent: {}
+[44.418939] (-) TimerEvent: {}
+[44.519139] (-) TimerEvent: {}
+[44.619341] (-) TimerEvent: {}
+[44.719560] (-) TimerEvent: {}
+[44.819808] (-) TimerEvent: {}
+[44.920046] (-) TimerEvent: {}
+[45.020346] (-) TimerEvent: {}
+[45.120554] (-) TimerEvent: {}
+[45.220803] (-) TimerEvent: {}
+[45.321041] (-) TimerEvent: {}
+[45.421281] (-) TimerEvent: {}
+[45.521592] (-) TimerEvent: {}
+[45.621854] (-) TimerEvent: {}
+[45.722208] (-) TimerEvent: {}
+[45.822520] (-) TimerEvent: {}
+[45.922743] (-) TimerEvent: {}
+[46.023037] (-) TimerEvent: {}
+[46.123279] (-) TimerEvent: {}
+[46.223496] (-) TimerEvent: {}
+[46.323762] (-) TimerEvent: {}
+[46.423999] (-) TimerEvent: {}
+[46.524415] (-) TimerEvent: {}
+[46.624664] (-) TimerEvent: {}
+[46.724890] (-) TimerEvent: {}
+[46.825112] (-) TimerEvent: {}
+[46.925379] (-) TimerEvent: {}
+[47.025697] (-) TimerEvent: {}
+[47.125995] (-) TimerEvent: {}
+[47.226234] (-) TimerEvent: {}
+[47.326484] (-) TimerEvent: {}
+[47.426739] (-) TimerEvent: {}
+[47.527078] (-) TimerEvent: {}
+[47.627329] (-) TimerEvent: {}
+[47.727566] (-) TimerEvent: {}
+[47.827839] (-) TimerEvent: {}
+[47.928148] (-) TimerEvent: {}
+[48.028394] (-) TimerEvent: {}
+[48.128613] (-) TimerEvent: {}
+[48.228862] (-) TimerEvent: {}
+[48.329130] (-) TimerEvent: {}
+[48.429342] (-) TimerEvent: {}
+[48.529608] (-) TimerEvent: {}
+[48.629861] (-) TimerEvent: {}
+[48.730116] (-) TimerEvent: {}
+[48.830333] (-) TimerEvent: {}
+[48.930561] (-) TimerEvent: {}
+[49.030776] (-) TimerEvent: {}
+[49.130992] (-) TimerEvent: {}
+[49.231240] (-) TimerEvent: {}
+[49.331490] (-) TimerEvent: {}
+[49.431693] (-) TimerEvent: {}
+[49.531956] (-) TimerEvent: {}
+[49.632160] (-) TimerEvent: {}
+[49.732400] (-) TimerEvent: {}
+[49.832639] (-) TimerEvent: {}
+[49.932878] (-) TimerEvent: {}
+[50.033088] (-) TimerEvent: {}
+[50.133388] (-) TimerEvent: {}
+[50.233626] (-) TimerEvent: {}
+[50.333877] (-) TimerEvent: {}
+[50.434220] (-) TimerEvent: {}
+[50.534537] (-) TimerEvent: {}
+[50.634749] (-) TimerEvent: {}
+[50.734955] (-) TimerEvent: {}
+[50.835194] (-) TimerEvent: {}
+[50.935398] (-) TimerEvent: {}
+[51.035664] (-) TimerEvent: {}
+[51.135888] (-) TimerEvent: {}
+[51.236168] (-) TimerEvent: {}
+[51.336412] (-) TimerEvent: {}
+[51.436648] (-) TimerEvent: {}
+[51.536901] (-) TimerEvent: {}
+[51.637178] (-) TimerEvent: {}
+[51.737566] (-) TimerEvent: {}
+[51.837877] (-) TimerEvent: {}
+[51.938140] (-) TimerEvent: {}
+[52.038375] (-) TimerEvent: {}
+[52.138650] (-) TimerEvent: {}
+[52.238895] (-) TimerEvent: {}
+[52.339124] (-) TimerEvent: {}
+[52.439338] (-) TimerEvent: {}
+[52.539601] (-) TimerEvent: {}
+[52.639815] (-) TimerEvent: {}
+[52.740067] (-) TimerEvent: {}
+[52.840322] (-) TimerEvent: {}
+[52.940573] (-) TimerEvent: {}
+[53.040832] (-) TimerEvent: {}
+[53.141053] (-) TimerEvent: {}
+[53.241270] (-) TimerEvent: {}
+[53.341514] (-) TimerEvent: {}
+[53.441740] (-) TimerEvent: {}
+[53.541999] (-) TimerEvent: {}
+[53.642215] (-) TimerEvent: {}
+[53.742740] (-) TimerEvent: {}
+[53.842955] (-) TimerEvent: {}
+[53.943162] (-) TimerEvent: {}
+[54.043412] (-) TimerEvent: {}
+[54.143630] (-) TimerEvent: {}
+[54.243883] (-) TimerEvent: {}
+[54.344135] (-) TimerEvent: {}
+[54.444393] (-) TimerEvent: {}
+[54.544654] (-) TimerEvent: {}
+[54.644912] (-) TimerEvent: {}
+[54.745168] (-) TimerEvent: {}
+[54.845409] (-) TimerEvent: {}
+[54.945650] (-) TimerEvent: {}
+[55.045912] (-) TimerEvent: {}
+[55.146137] (-) TimerEvent: {}
+[55.246409] (-) TimerEvent: {}
+[55.315005] (slam_toolbox) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libtoolbox_common.so\x1b[0m\n'}
+[55.346497] (-) TimerEvent: {}
+[55.446721] (-) TimerEvent: {}
+[55.546949] (-) TimerEvent: {}
+[55.647206] (-) TimerEvent: {}
+[55.747437] (-) TimerEvent: {}
+[55.793929] (slam_toolbox) StdoutLine: {'line': b'[ 87%] Built target toolbox_common\n'}
+[55.802473] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target async_slam_toolbox\x1b[0m\n'}
+[55.802629] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sync_slam_toolbox\x1b[0m\n'}
+[55.802753] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target merge_maps_kinematic\x1b[0m\n'}
+[55.802868] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lifelong_slam_toolbox\x1b[0m\n'}
+[55.802978] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target localization_slam_toolbox\x1b[0m\n'}
+[55.847536] (-) TimerEvent: {}
+[55.861307] (slam_toolbox) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/merge_maps_kinematic.dir/src/merge_maps_kinematic.cpp.o\x1b[0m\n'}
+[55.882047] (slam_toolbox) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/localization_slam_toolbox.dir/src/slam_toolbox_localization.cpp.o\x1b[0m\n'}
+[55.882217] (slam_toolbox) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/async_slam_toolbox.dir/src/slam_toolbox_async.cpp.o\x1b[0m\n'}
+[55.882912] (slam_toolbox) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/lifelong_slam_toolbox.dir/src/experimental/slam_toolbox_lifelong.cpp.o\x1b[0m\n'}
+[55.883211] (slam_toolbox) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/sync_slam_toolbox.dir/src/slam_toolbox_sync.cpp.o\x1b[0m\n'}
+[55.947635] (-) TimerEvent: {}
+[56.047958] (-) TimerEvent: {}
+[56.148221] (-) TimerEvent: {}
+[56.248509] (-) TimerEvent: {}
+[56.348777] (-) TimerEvent: {}
+[56.449072] (-) TimerEvent: {}
+[56.549398] (-) TimerEvent: {}
+[56.649718] (-) TimerEvent: {}
+[56.750048] (-) TimerEvent: {}
+[56.850359] (-) TimerEvent: {}
+[56.950677] (-) TimerEvent: {}
+[57.050996] (-) TimerEvent: {}
+[57.151337] (-) TimerEvent: {}
+[57.251689] (-) TimerEvent: {}
+[57.352010] (-) TimerEvent: {}
+[57.452368] (-) TimerEvent: {}
+[57.552716] (-) TimerEvent: {}
+[57.653046] (-) TimerEvent: {}
+[57.753342] (-) TimerEvent: {}
+[57.853657] (-) TimerEvent: {}
+[57.953976] (-) TimerEvent: {}
+[58.054307] (-) TimerEvent: {}
+[58.154644] (-) TimerEvent: {}
+[58.254978] (-) TimerEvent: {}
+[58.355327] (-) TimerEvent: {}
+[58.455592] (-) TimerEvent: {}
+[58.555883] (-) TimerEvent: {}
+[58.656170] (-) TimerEvent: {}
+[58.756467] (-) TimerEvent: {}
+[58.856737] (-) TimerEvent: {}
+[58.957086] (-) TimerEvent: {}
+[59.057378] (-) TimerEvent: {}
+[59.157624] (-) TimerEvent: {}
+[59.257914] (-) TimerEvent: {}
+[59.358201] (-) TimerEvent: {}
+[59.458485] (-) TimerEvent: {}
+[59.558733] (-) TimerEvent: {}
+[59.659013] (-) TimerEvent: {}
+[59.759281] (-) TimerEvent: {}
+[59.859547] (-) TimerEvent: {}
+[59.959859] (-) TimerEvent: {}
+[60.060174] (-) TimerEvent: {}
+[60.160481] (-) TimerEvent: {}
+[60.260778] (-) TimerEvent: {}
+[60.361063] (-) TimerEvent: {}
+[60.461386] (-) TimerEvent: {}
+[60.561666] (-) TimerEvent: {}
+[60.661973] (-) TimerEvent: {}
+[60.762226] (-) TimerEvent: {}
+[60.862485] (-) TimerEvent: {}
+[60.962729] (-) TimerEvent: {}
+[61.062989] (-) TimerEvent: {}
+[61.163278] (-) TimerEvent: {}
+[61.263554] (-) TimerEvent: {}
+[61.363843] (-) TimerEvent: {}
+[61.464088] (-) TimerEvent: {}
+[61.564355] (-) TimerEvent: {}
+[61.664694] (-) TimerEvent: {}
+[61.765041] (-) TimerEvent: {}
+[61.865356] (-) TimerEvent: {}
+[61.965684] (-) TimerEvent: {}
+[62.066014] (-) TimerEvent: {}
+[62.166418] (-) TimerEvent: {}
+[62.266754] (-) TimerEvent: {}
+[62.367076] (-) TimerEvent: {}
+[62.467389] (-) TimerEvent: {}
+[62.567698] (-) TimerEvent: {}
+[62.668037] (-) TimerEvent: {}
+[62.768360] (-) TimerEvent: {}
+[62.868685] (-) TimerEvent: {}
+[62.969016] (-) TimerEvent: {}
+[63.069326] (-) TimerEvent: {}
+[63.169651] (-) TimerEvent: {}
+[63.269963] (-) TimerEvent: {}
+[63.370308] (-) TimerEvent: {}
+[63.470636] (-) TimerEvent: {}
+[63.570965] (-) TimerEvent: {}
+[63.671306] (-) TimerEvent: {}
+[63.771646] (-) TimerEvent: {}
+[63.871995] (-) TimerEvent: {}
+[63.972366] (-) TimerEvent: {}
+[64.072687] (-) TimerEvent: {}
+[64.173027] (-) TimerEvent: {}
+[64.273394] (-) TimerEvent: {}
+[64.373751] (-) TimerEvent: {}
+[64.474102] (-) TimerEvent: {}
+[64.574440] (-) TimerEvent: {}
+[64.674772] (-) TimerEvent: {}
+[64.775082] (-) TimerEvent: {}
+[64.875426] (-) TimerEvent: {}
+[64.975752] (-) TimerEvent: {}
+[65.076075] (-) TimerEvent: {}
+[65.176380] (-) TimerEvent: {}
+[65.276680] (-) TimerEvent: {}
+[65.376983] (-) TimerEvent: {}
+[65.477312] (-) TimerEvent: {}
+[65.577612] (-) TimerEvent: {}
+[65.678018] (-) TimerEvent: {}
+[65.778354] (-) TimerEvent: {}
+[65.878670] (-) TimerEvent: {}
+[65.979030] (-) TimerEvent: {}
+[66.079352] (-) TimerEvent: {}
+[66.179672] (-) TimerEvent: {}
+[66.280007] (-) TimerEvent: {}
+[66.380340] (-) TimerEvent: {}
+[66.480668] (-) TimerEvent: {}
+[66.581158] (-) TimerEvent: {}
+[66.681515] (-) TimerEvent: {}
+[66.781865] (-) TimerEvent: {}
+[66.882189] (-) TimerEvent: {}
+[66.982573] (-) TimerEvent: {}
+[67.082956] (-) TimerEvent: {}
+[67.158778] (slam_toolbox) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared library libasync_slam_toolbox.so\x1b[0m\n'}
+[67.183076] (-) TimerEvent: {}
+[67.283325] (-) TimerEvent: {}
+[67.383591] (-) TimerEvent: {}
+[67.483846] (-) TimerEvent: {}
+[67.575068] (slam_toolbox) StdoutLine: {'line': b'[ 93%] Built target async_slam_toolbox\n'}
+[67.583950] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target async_slam_toolbox_node\x1b[0m\n'}
+[67.584159] (-) TimerEvent: {}
+[67.663793] (slam_toolbox) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object CMakeFiles/async_slam_toolbox_node.dir/src/slam_toolbox_async_node.cpp.o\x1b[0m\n'}
+[67.671366] (slam_toolbox) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX shared library liblifelong_slam_toolbox.so\x1b[0m\n'}
+[67.684271] (-) TimerEvent: {}
+[67.784505] (-) TimerEvent: {}
+[67.884750] (-) TimerEvent: {}
+[67.985059] (-) TimerEvent: {}
+[68.082944] (slam_toolbox) StdoutLine: {'line': b'[ 95%] Built target lifelong_slam_toolbox\n'}
+[68.085135] (-) TimerEvent: {}
+[68.091755] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lifelong_slam_toolbox_node\x1b[0m\n'}
+[68.169974] (slam_toolbox) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/lifelong_slam_toolbox_node.dir/src/experimental/slam_toolbox_lifelong_node.cpp.o\x1b[0m\n'}
+[68.185262] (-) TimerEvent: {}
+[68.285502] (-) TimerEvent: {}
+[68.385786] (-) TimerEvent: {}
+[68.407987] (slam_toolbox) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library libsync_slam_toolbox.so\x1b[0m\n'}
+[68.485929] (-) TimerEvent: {}
+[68.586227] (-) TimerEvent: {}
+[68.686528] (-) TimerEvent: {}
+[68.786805] (-) TimerEvent: {}
+[68.844224] (slam_toolbox) StdoutLine: {'line': b'[ 96%] Built target sync_slam_toolbox\n'}
+[68.853773] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sync_slam_toolbox_node\x1b[0m\n'}
+[68.886906] (-) TimerEvent: {}
+[68.928882] (slam_toolbox) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/sync_slam_toolbox_node.dir/src/slam_toolbox_sync_node.cpp.o\x1b[0m\n'}
+[68.987022] (-) TimerEvent: {}
+[69.087379] (-) TimerEvent: {}
+[69.187733] (-) TimerEvent: {}
+[69.288074] (-) TimerEvent: {}
+[69.388378] (-) TimerEvent: {}
+[69.488724] (-) TimerEvent: {}
+[69.589078] (-) TimerEvent: {}
+[69.689385] (-) TimerEvent: {}
+[69.789688] (-) TimerEvent: {}
+[69.890014] (-) TimerEvent: {}
+[69.990370] (-) TimerEvent: {}
+[70.090640] (-) TimerEvent: {}
+[70.190913] (-) TimerEvent: {}
+[70.291221] (-) TimerEvent: {}
+[70.391504] (-) TimerEvent: {}
+[70.491743] (-) TimerEvent: {}
+[70.592018] (-) TimerEvent: {}
+[70.692298] (-) TimerEvent: {}
+[70.792537] (-) TimerEvent: {}
+[70.892819] (-) TimerEvent: {}
+[70.993057] (-) TimerEvent: {}
+[71.093292] (-) TimerEvent: {}
+[71.193554] (-) TimerEvent: {}
+[71.286062] (slam_toolbox) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable merge_maps_kinematic\x1b[0m\n'}
+[71.293663] (-) TimerEvent: {}
+[71.393951] (-) TimerEvent: {}
+[71.494202] (-) TimerEvent: {}
+[71.594501] (-) TimerEvent: {}
+[71.694772] (-) TimerEvent: {}
+[71.748671] (slam_toolbox) StdoutLine: {'line': b'[ 96%] Built target merge_maps_kinematic\n'}
+[71.794865] (-) TimerEvent: {}
+[71.895149] (-) TimerEvent: {}
+[71.995404] (-) TimerEvent: {}
+[72.055678] (slam_toolbox) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library liblocalization_slam_toolbox.so\x1b[0m\n'}
+[72.095523] (-) TimerEvent: {}
+[72.195859] (-) TimerEvent: {}
+[72.296214] (-) TimerEvent: {}
+[72.396578] (-) TimerEvent: {}
+[72.486064] (slam_toolbox) StdoutLine: {'line': b'[ 96%] Built target localization_slam_toolbox\n'}
+[72.496667] (-) TimerEvent: {}
+[72.496869] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target localization_slam_toolbox_node\x1b[0m\n'}
+[72.574099] (slam_toolbox) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object CMakeFiles/localization_slam_toolbox_node.dir/src/slam_toolbox_localization_node.cpp.o\x1b[0m\n'}
+[72.596761] (-) TimerEvent: {}
+[72.696991] (-) TimerEvent: {}
+[72.797260] (-) TimerEvent: {}
+[72.897538] (-) TimerEvent: {}
+[72.997780] (-) TimerEvent: {}
+[73.098035] (-) TimerEvent: {}
+[73.198328] (-) TimerEvent: {}
+[73.298570] (-) TimerEvent: {}
+[73.398820] (-) TimerEvent: {}
+[73.499098] (-) TimerEvent: {}
+[73.599338] (-) TimerEvent: {}
+[73.699573] (-) TimerEvent: {}
+[73.799846] (-) TimerEvent: {}
+[73.900120] (-) TimerEvent: {}
+[74.000394] (-) TimerEvent: {}
+[74.100659] (-) TimerEvent: {}
+[74.200904] (-) TimerEvent: {}
+[74.301210] (-) TimerEvent: {}
+[74.401480] (-) TimerEvent: {}
+[74.501749] (-) TimerEvent: {}
+[74.601984] (-) TimerEvent: {}
+[74.702215] (-) TimerEvent: {}
+[74.802472] (-) TimerEvent: {}
+[74.902754] (-) TimerEvent: {}
+[75.002992] (-) TimerEvent: {}
+[75.103243] (-) TimerEvent: {}
+[75.203494] (-) TimerEvent: {}
+[75.303752] (-) TimerEvent: {}
+[75.404032] (-) TimerEvent: {}
+[75.504298] (-) TimerEvent: {}
+[75.604591] (-) TimerEvent: {}
+[75.704843] (-) TimerEvent: {}
+[75.805166] (-) TimerEvent: {}
+[75.905429] (-) TimerEvent: {}
+[76.005705] (-) TimerEvent: {}
+[76.105968] (-) TimerEvent: {}
+[76.206279] (-) TimerEvent: {}
+[76.306534] (-) TimerEvent: {}
+[76.406786] (-) TimerEvent: {}
+[76.507032] (-) TimerEvent: {}
+[76.607305] (-) TimerEvent: {}
+[76.707539] (-) TimerEvent: {}
+[76.807772] (-) TimerEvent: {}
+[76.908045] (-) TimerEvent: {}
+[77.008313] (-) TimerEvent: {}
+[77.108585] (-) TimerEvent: {}
+[77.208835] (-) TimerEvent: {}
+[77.309123] (-) TimerEvent: {}
+[77.409371] (-) TimerEvent: {}
+[77.509641] (-) TimerEvent: {}
+[77.609870] (-) TimerEvent: {}
+[77.710143] (-) TimerEvent: {}
+[77.810429] (-) TimerEvent: {}
+[77.910657] (-) TimerEvent: {}
+[78.010885] (-) TimerEvent: {}
+[78.111140] (-) TimerEvent: {}
+[78.211370] (-) TimerEvent: {}
+[78.311627] (-) TimerEvent: {}
+[78.411908] (-) TimerEvent: {}
+[78.512136] (-) TimerEvent: {}
+[78.612419] (-) TimerEvent: {}
+[78.712692] (-) TimerEvent: {}
+[78.812954] (-) TimerEvent: {}
+[78.913234] (-) TimerEvent: {}
+[78.980494] (slam_toolbox) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable async_slam_toolbox_node\x1b[0m\n'}
+[79.013357] (-) TimerEvent: {}
+[79.113628] (-) TimerEvent: {}
+[79.213919] (-) TimerEvent: {}
+[79.314170] (-) TimerEvent: {}
+[79.318221] (slam_toolbox) StdoutLine: {'line': b'[ 97%] Built target async_slam_toolbox_node\n'}
+[79.333734] (slam_toolbox) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable lifelong_slam_toolbox_node\x1b[0m\n'}
+[79.414303] (-) TimerEvent: {}
+[79.514629] (-) TimerEvent: {}
+[79.614876] (-) TimerEvent: {}
+[79.653278] (slam_toolbox) StdoutLine: {'line': b'[ 98%] Built target lifelong_slam_toolbox_node\n'}
+[79.714963] (-) TimerEvent: {}
+[79.815184] (-) TimerEvent: {}
+[79.915460] (-) TimerEvent: {}
+[80.015786] (-) TimerEvent: {}
+[80.116040] (-) TimerEvent: {}
+[80.214867] (slam_toolbox) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking CXX executable sync_slam_toolbox_node\x1b[0m\n'}
+[80.216113] (-) TimerEvent: {}
+[80.316341] (-) TimerEvent: {}
+[80.416613] (-) TimerEvent: {}
+[80.516962] (-) TimerEvent: {}
+[80.535614] (slam_toolbox) StdoutLine: {'line': b'[ 99%] Built target sync_slam_toolbox_node\n'}
+[80.617056] (-) TimerEvent: {}
+[80.717344] (-) TimerEvent: {}
+[80.817628] (-) TimerEvent: {}
+[80.917869] (-) TimerEvent: {}
+[81.018156] (-) TimerEvent: {}
+[81.118444] (-) TimerEvent: {}
+[81.218664] (-) TimerEvent: {}
+[81.318896] (-) TimerEvent: {}
+[81.419157] (-) TimerEvent: {}
+[81.519430] (-) TimerEvent: {}
+[81.619686] (-) TimerEvent: {}
+[81.719934] (-) TimerEvent: {}
+[81.820172] (-) TimerEvent: {}
+[81.920561] (-) TimerEvent: {}
+[82.020781] (-) TimerEvent: {}
+[82.121002] (-) TimerEvent: {}
+[82.221329] (-) TimerEvent: {}
+[82.321631] (-) TimerEvent: {}
+[82.421885] (-) TimerEvent: {}
+[82.522162] (-) TimerEvent: {}
+[82.622415] (-) TimerEvent: {}
+[82.722652] (-) TimerEvent: {}
+[82.822899] (-) TimerEvent: {}
+[82.923152] (-) TimerEvent: {}
+[83.023410] (-) TimerEvent: {}
+[83.123624] (-) TimerEvent: {}
+[83.223873] (-) TimerEvent: {}
+[83.324135] (-) TimerEvent: {}
+[83.332424] (slam_toolbox) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable localization_slam_toolbox_node\x1b[0m\n'}
+[83.424221] (-) TimerEvent: {}
+[83.524476] (-) TimerEvent: {}
+[83.624744] (-) TimerEvent: {}
+[83.630661] (slam_toolbox) StdoutLine: {'line': b'[100%] Built target localization_slam_toolbox_node\n'}
+[83.640190] (slam_toolbox) CommandEnded: {'returncode': 0}
+[83.724915] (-) TimerEvent: {}
+[83.779038] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'install'}
+[83.787175] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/markros2/rosproject/build/slam_toolbox'], 'cwd': '/home/markros2/rosproject/build/slam_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'markros2'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1836'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/markros2/project/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/markros2'), ('OLDPWD', '/home/markros2/rosproject/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1613'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/markros2/project/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'markros2'), ('JOURNAL_STREAM', '8:48778'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'markros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/markros2-G5-5500:@/tmp/.ICE-unix/1871,unix/markros2-G5-5500:/tmp/.ICE-unix/1871'), ('INVOCATION_ID', '481fcc83058b4361aa19650887036dc5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f3b12076_bd0a_4afe_ac89_78db905411f6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/markros2/project/install/slam_toolbox:/home/markros2/project/install/slam:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/markros2/rosproject/build/slam_toolbox'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/markros2/project/install/slam_toolbox/lib/python3.8/site-packages:/home/markros2/project/install/slam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/markros2/project/install/slam_toolbox:/home/markros2/project/install/slam:/opt/ros/foxy')]), 'shell': False}
+[83.794399] (slam_toolbox) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[83.794595] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/ament_index/resource_index/rosidl_interfaces/slam_toolbox\n'}
+[83.794716] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox\n'}
+[83.794782] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/msg\n'}
+[83.794880] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/msg/rosidl_generator_c__visibility_control.h\n'}
+[83.794971] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv\n'}
+[83.795068] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/add_submap.h\n'}
+[83.795138] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/toggle_interactive.h\n'}
+[83.795222] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/loop_closure.h\n'}
+[83.795293] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/clear_queue.h\n'}
+[83.795367] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/merge_maps.h\n'}
+[83.795440] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail\n'}
+[83.795522] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__struct.h\n'}
+[83.795594] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__struct.h\n'}
+[83.795665] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__functions.c\n'}
+[83.795748] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__functions.c\n'}
+[83.795820] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__struct.h\n'}
+[83.795891] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__struct.h\n'}
+[83.795963] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__functions.h\n'}
+[83.796043] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__type_support.h\n'}
+[83.796104] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__functions.h\n'}
+[83.796180] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__struct.h\n'}
+[83.796251] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__type_support.h\n'}
+[83.796334] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__functions.h\n'}
+[83.796410] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__struct.h\n'}
+[83.796482] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__type_support.h\n'}
+[83.796561] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.h\n'}
+[83.796637] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__type_support.h\n'}
+[83.796709] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__functions.h\n'}
+[83.796792] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__type_support.h\n'}
+[83.796857] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__struct.h\n'}
+[83.796940] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__struct.h\n'}
+[83.797007] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__functions.c\n'}
+[83.797077] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__struct.h\n'}
+[83.797156] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__functions.h\n'}
+[83.797222] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__type_support.h\n'}
+[83.797281] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__struct.h\n'}
+[83.797359] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__functions.c\n'}
+[83.797432] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__type_support.h\n'}
+[83.797502] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__functions.h\n'}
+[83.797572] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__functions.c\n'}
+[83.797644] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__type_support.h\n'}
+[83.797727] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__functions.h\n'}
+[83.797805] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__functions.c\n'}
+[83.797862] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__functions.h\n'}
+[83.797917] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__functions.h\n'}
+[83.797977] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__functions.h\n'}
+[83.798048] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__functions.c\n'}
+[83.798117] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__functions.c\n'}
+[83.798173] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__type_support.h\n'}
+[83.798265] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__functions.c\n'}
+[83.798357] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__functions.c\n'}
+[83.798414] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/save_map.h\n'}
+[83.798469] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/deserialize_pose_graph.h\n'}
+[83.798535] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/clear.h\n'}
+[83.798629] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/serialize_pose_graph.h\n'}
+[83.798712] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/pause.h\n'}
+[83.798782] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/environment/library_path.sh\n'}
+[83.798856] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/environment/library_path.dsv\n'}
+[83.798937] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so\n'}
+[83.799008] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so" to ""\n'}
+[83.799078] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox\n'}
+[83.799164] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/msg\n'}
+[83.799238] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[83.799310] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv\n'}
+[83.799367] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail\n'}
+[83.799434] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_c.h\n'}
+[83.799491] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_c.h\n'}
+[83.799547] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_c.h\n'}
+[83.799603] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_c.h\n'}
+[83.799658] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h\n'}
+[83.799728] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_c.h\n'}
+[83.799816] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_c.h\n'}
+[83.799879] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_c.h\n'}
+[83.799956] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_c.h\n'}
+[83.800035] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_c.h\n'}
+[83.800094] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so\n'}
+[83.800178] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[83.800250] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox\n'}
+[83.800313] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/msg\n'}
+[83.800389] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[83.800469] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv\n'}
+[83.800529] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail\n'}
+[83.800598] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[83.800655] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[83.800725] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[83.800781] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[83.800840] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[83.800898] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[83.800953] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/dds_fastrtps\n'}
+[83.801023] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[83.801110] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[83.801189] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[83.801261] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[83.801345] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so\n'}
+[83.801418] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[83.801482] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox\n'}
+[83.801559] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/msg\n'}
+[83.801632] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[83.801716] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv\n'}
+[83.801791] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail\n'}
+[83.801853] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__type_support.c\n'}
+[83.801929] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_c.h\n'}
+[83.801998] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__type_support.c\n'}
+[83.802068] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__type_support.c\n'}
+[83.802138] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_c.h\n'}
+[83.802220] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_c.h\n'}
+[83.802338] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_c.h\n'}
+[83.802411] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_c.h\n'}
+[83.802475] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__type_support.c\n'}
+[83.802545] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__type_support.c\n'}
+[83.802617] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.c\n'}
+[83.802676] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_c.h\n'}
+[83.802732] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__type_support.c\n'}
+[83.802788] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_c.h\n'}
+[83.802843] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__type_support.c\n'}
+[83.802913] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_c.h\n'}
+[83.802989] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_c.h\n'}
+[83.803045] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__type_support.c\n'}
+[83.803101] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_c.h\n'}
+[83.803155] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__type_support.c\n'}
+[83.803224] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so\n'}
+[83.803306] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so" to ""\n'}
+[83.803386] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so\n'}
+[83.803472] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so" to ""\n'}
+[83.803605] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox\n'}
+[83.803730] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv\n'}
+[83.803893] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/save_map.hpp\n'}
+[83.804018] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/serialize_pose_graph.hpp\n'}
+[83.804137] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/pause.hpp\n'}
+[83.804255] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/toggle_interactive.hpp\n'}
+[83.804377] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/loop_closure.hpp\n'}
+[83.804547] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/clear_queue.hpp\n'}
+[83.804639] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/clear.hpp\n'}
+[83.804718] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail\n'}
+[83.804795] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__traits.hpp\n'}
+[83.804872] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__struct.hpp\n'}
+[83.804948] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__struct.hpp\n'}
+[83.805024] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__builder.hpp\n'}
+[83.805102] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__builder.hpp\n'}
+[83.805204] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__builder.hpp\n'}
+[83.805294] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__struct.hpp\n'}
+[83.805365] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__traits.hpp\n'}
+[83.805448] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__traits.hpp\n'}
+[83.805510] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__traits.hpp\n'}
+[83.805592] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__traits.hpp\n'}
+[83.805664] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__struct.hpp\n'}
+[83.805735] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__struct.hpp\n'}
+[83.805805] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__builder.hpp\n'}
+[83.805888] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__builder.hpp\n'}
+[83.805946] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__traits.hpp\n'}
+[83.806047] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__traits.hpp\n'}
+[83.806125] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__struct.hpp\n'}
+[83.806198] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__traits.hpp\n'}
+[83.806296] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__traits.hpp\n'}
+[83.806354] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__traits.hpp\n'}
+[83.806426] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__builder.hpp\n'}
+[83.806499] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__builder.hpp\n'}
+[83.806580] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__builder.hpp\n'}
+[83.806653] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__struct.hpp\n'}
+[83.806724] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__struct.hpp\n'}
+[83.806795] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__builder.hpp\n'}
+[83.806865] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__builder.hpp\n'}
+[83.806938] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__struct.hpp\n'}
+[83.807009] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__struct.hpp\n'}
+[83.807080] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/merge_maps.hpp\n'}
+[83.807163] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/deserialize_pose_graph.hpp\n'}
+[83.807227] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/add_submap.hpp\n'}
+[83.807309] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox\n'}
+[83.807376] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv\n'}
+[83.807447] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail\n'}
+[83.807503] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__type_support.cpp\n'}
+[83.807566] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__type_support.cpp\n'}
+[83.807636] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[83.807694] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__type_support.cpp\n'}
+[83.807786] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_cpp.hpp\n'}
+[83.807842] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_cpp.hpp\n'}
+[83.807899] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.cpp\n'}
+[83.807977] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[83.808048] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_cpp.hpp\n'}
+[83.808104] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__type_support.cpp\n'}
+[83.808163] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__type_support.cpp\n'}
+[83.808220] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_cpp.hpp\n'}
+[83.808289] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[83.808360] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_cpp.hpp\n'}
+[83.808427] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp\n'}
+[83.808485] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__type_support.cpp\n'}
+[83.808542] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__type_support.cpp\n'}
+[83.808613] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_cpp.hpp\n'}
+[83.808670] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__type_support.cpp\n'}
+[83.808726] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__type_support.cpp\n'}
+[83.808782] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so\n'}
+[83.808837] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[83.808896] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so\n'}
+[83.808952] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so" to ""\n'}
+[83.809012] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.sh\n'}
+[83.809067] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.dsv\n'}
+[83.809122] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/__init__.py\n'}
+[83.824969] (-) TimerEvent: {}
+[83.833847] (slam_toolbox) StdoutLine: {'line': b"Compiling '/home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/__init__.py'...\n"}
+[83.837152] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv\n'}
+[83.837381] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_toggle_interactive_s.c\n'}
+[83.837492] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_save_map.py\n'}
+[83.837616] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_serialize_pose_graph_s.c\n'}
+[83.837796] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_deserialize_pose_graph_s.c\n'}
+[83.837952] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_toggle_interactive.py\n'}
+[83.838118] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_pause.py\n'}
+[83.838262] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_deserialize_pose_graph.py\n'}
+[83.838397] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_loop_closure_s.c\n'}
+[83.838512] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_pause_s.c\n'}
+[83.838628] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_clear.py\n'}
+[83.838768] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_merge_maps_s.c\n'}
+[83.838855] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_add_submap.py\n'}
+[83.838941] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_merge_maps.py\n'}
+[83.839004] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_serialize_pose_graph.py\n'}
+[83.839066] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_clear_queue_s.c\n'}
+[83.839126] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_loop_closure.py\n'}
+[83.839190] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_clear_s.c\n'}
+[83.839250] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/__init__.py\n'}
+[83.839309] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_clear_queue.py\n'}
+[83.839384] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_save_map_s.c\n'}
+[83.839443] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_add_submap_s.c\n'}
+[83.839518] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[83.839605] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[83.839666] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[83.839961] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[83.840133] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[83.840694] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[83.840785] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/libslam_toolbox__python.so\n'}
+[83.841022] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/libslam_toolbox__python.so" to ""\n'}
+[83.841108] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srv/Pause.idl\n'}
+[83.841206] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.idl\n'}
+[83.841301] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.idl\n'}
+[83.841394] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srv/Clear.idl\n'}
+[83.841490] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.idl\n'}
+[83.841581] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.idl\n'}
+[83.841671] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.idl\n'}
+[83.841763] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.idl\n'}
+[83.841854] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.idl\n'}
+[83.841949] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.idl\n'}
+[83.842061] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/Pause.srv\n'}
+[83.842153] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Request.msg\n'}
+[83.842313] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Response.msg\n'}
+[83.842407] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue.srv\n'}
+[83.842497] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Request.msg\n'}
+[83.842589] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Response.msg\n'}
+[83.842694] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive.srv\n'}
+[83.842782] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Request.msg\n'}
+[83.842871] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Response.msg\n'}
+[83.842960] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/Clear.srv\n'}
+[83.843051] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Request.msg\n'}
+[83.843141] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Response.msg\n'}
+[83.843226] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap.srv\n'}
+[83.843314] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Request.msg\n'}
+[83.843402] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Response.msg\n'}
+[83.843490] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure.srv\n'}
+[83.843582] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Request.msg\n'}
+[83.843670] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Response.msg\n'}
+[83.843758] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps.srv\n'}
+[83.843846] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Request.msg\n'}
+[83.843936] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Response.msg\n'}
+[83.844020] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap.srv\n'}
+[83.844110] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Request.msg\n'}
+[83.844199] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Response.msg\n'}
+[83.844285] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph.srv\n'}
+[83.844374] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Request.msg\n'}
+[83.844466] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Response.msg\n'}
+[83.844552] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph.srv\n'}
+[83.844643] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Request.msg\n'}
+[83.844733] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Response.msg\n'}
+[83.844818] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/rviz_plugins.xml\n'}
+[83.844908] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/solver_plugins.xml\n'}
+[83.845054] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/slam_toolbox/async_slam_toolbox_node\n'}
+[83.845802] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/slam_toolbox/async_slam_toolbox_node" to ""\n'}
+[83.845881] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/slam_toolbox/sync_slam_toolbox_node\n'}
+[83.846814] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/slam_toolbox/sync_slam_toolbox_node" to ""\n'}
+[83.846897] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/slam_toolbox/localization_slam_toolbox_node\n'}
+[83.847559] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/slam_toolbox/localization_slam_toolbox_node" to ""\n'}
+[83.847635] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/slam_toolbox/lifelong_slam_toolbox_node\n'}
+[83.848356] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/slam_toolbox/lifelong_slam_toolbox_node" to ""\n'}
+[83.848436] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/slam_toolbox/merge_maps_kinematic\n'}
+[83.849445] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/slam_toolbox/merge_maps_kinematic" to ""\n'}
+[83.849531] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/libtoolbox_common.so\n'}
+[83.851828] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/libtoolbox_common.so" to ""\n'}
+[83.851910] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/libSlamToolboxPlugin.so\n'}
+[83.852830] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/libSlamToolboxPlugin.so" to ""\n'}
+[83.852914] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/libceres_solver_plugin.so\n'}
+[83.853817] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/libceres_solver_plugin.so" to ""\n'}
+[83.854004] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/libasync_slam_toolbox.so\n'}
+[83.854763] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/libasync_slam_toolbox.so" to ""\n'}
+[83.854858] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/libsync_slam_toolbox.so\n'}
+[83.855642] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/libsync_slam_toolbox.so" to ""\n'}
+[83.855731] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/liblocalization_slam_toolbox.so\n'}
+[83.856820] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/liblocalization_slam_toolbox.so" to ""\n'}
+[83.856904] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/liblifelong_slam_toolbox.so\n'}
+[83.857649] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/liblifelong_slam_toolbox.so" to ""\n'}
+[83.857813] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/markros2/rosproject/install/slam_toolbox/lib/libSlamToolboxPlugin.so\n'}
+[83.857963] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/markros2/rosproject/install/slam_toolbox/include\n'}
+[83.858052] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox\n'}
+[83.858133] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/slam_toolbox_async.hpp\n'}
+[83.858226] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/map_saver.hpp\n'}
+[83.858308] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/slam_toolbox_sync.hpp\n'}
+[83.858396] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/merge_maps_kinematic.hpp\n'}
+[83.858583] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/slam_toolbox_localization.hpp\n'}
+[83.858674] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/snap_utils.hpp\n'}
+[83.858769] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/laser_utils.hpp\n'}
+[83.858850] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/slam_toolbox_common.hpp\n'}
+[83.858940] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/serialization.hpp\n'}
+[83.859020] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/toolbox_types.hpp\n'}
+[83.859095] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/get_pose_helper.hpp\n'}
+[83.859183] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/toolbox_msgs.hpp\n'}
+[83.859265] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/visualization_utils.hpp\n'}
+[83.859356] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/experimental\n'}
+[83.859446] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp\n'}
+[83.859510] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/slam_mapper.hpp\n'}
+[83.859600] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include/slam_toolbox/loop_closure_assistant.hpp\n'}
+[83.859680] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/launch\n'}
+[83.859772] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/launch/lifelong_launch.py\n'}
+[83.859863] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/launch/localization_launch.py\n'}
+[83.859924] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/launch/online_async_launch.py\n'}
+[83.860004] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/launch/online_sync_launch.py\n'}
+[83.860079] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/launch/merge_maps_kinematic_launch.py\n'}
+[83.860138] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/launch/offline_launch.py\n'}
+[83.860212] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/config\n'}
+[83.860270] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/config/mapper_params_localization.yaml\n'}
+[83.860347] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_async.yaml\n'}
+[83.860409] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_sync.yaml\n'}
+[83.860483] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/config/mapper_params_lifelong.yaml\n'}
+[83.860560] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/config/mapper_params_offline.yaml\n'}
+[83.860621] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/config/slam_toolbox_default.rviz\n'}
+[83.860694] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/solver_plugins.xml\n'}
+[83.860770] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/rviz_plugins.xml\n'}
+[83.860846] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/slam_toolbox\n'}
+[83.860909] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/slam_toolbox\n'}
+[83.860983] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.sh\n'}
+[83.861061] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.dsv\n'}
+[83.861138] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/environment/path.sh\n'}
+[83.861202] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/environment/path.dsv\n'}
+[83.861276] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/local_setup.bash\n'}
+[83.861337] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/local_setup.sh\n'}
+[83.861411] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/local_setup.zsh\n'}
+[83.861471] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/local_setup.dsv\n'}
+[83.861544] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/package.dsv\n'}
+[83.861610] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/ament_index/resource_index/packages/slam_toolbox\n'}
+[83.861683] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/ament_index/resource_index/rviz_common__pluginlib__plugin/slam_toolbox\n'}
+[83.861741] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/ament_index/resource_index/slam_toolbox__pluginlib__plugin/slam_toolbox\n'}
+[83.861818] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_generator_cExport.cmake\n'}
+[83.861900] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_generator_cExport-release.cmake\n'}
+[83.862046] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport.cmake\n'}
+[83.862164] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[83.862351] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport.cmake\n'}
+[83.862462] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport-release.cmake\n'}
+[83.862600] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_generator_cppExport.cmake\n'}
+[83.862750] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[83.862860] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[83.863002] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport.cmake\n'}
+[83.863116] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport-release.cmake\n'}
+[83.863248] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport.cmake\n'}
+[83.863406] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport-release.cmake\n'}
+[83.863528] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake-extras.cmake\n'}
+[83.863669] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[83.863774] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[83.863864] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[83.863981] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[83.864082] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[83.864160] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[83.864240] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig.cmake\n'}
+[83.864317] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig-version.cmake\n'}
+[83.864476] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/package.xml\n'}
+[83.864822] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/markros2/rosproject/install/slam_toolbox/include/\n'}
+[83.864964] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include//karto_sdk\n'}
+[83.865077] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include//karto_sdk/nanoflann_adaptors.h\n'}
+[83.865224] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include//karto_sdk/Types.h\n'}
+[83.865309] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include//karto_sdk/Macros.h\n'}
+[83.865372] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include//karto_sdk/Math.h\n'}
+[83.865458] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include//karto_sdk/Mapper.h\n'}
+[83.865517] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include//karto_sdk/nanoflann.hpp\n'}
+[83.865582] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/include//karto_sdk/Karto.h\n'}
+[83.865671] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/lib/libkartoSlamToolbox.so\n'}
+[83.868306] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/markros2/rosproject/install/slam_toolbox/lib/libkartoSlamToolbox.so" to ""\n'}
+[83.868407] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/karto_sdk/environment/library_path.sh\n'}
+[83.868512] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/karto_sdk/environment/library_path.dsv\n'}
+[83.868628] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/karto_sdk\n'}
+[83.868746] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/karto_sdk\n'}
+[83.868851] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/karto_sdk/environment/ament_prefix_path.sh\n'}
+[83.868955] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/karto_sdk/environment/ament_prefix_path.dsv\n'}
+[83.869055] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/karto_sdk/environment/path.sh\n'}
+[83.869161] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/karto_sdk/environment/path.dsv\n'}
+[83.869259] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/karto_sdk/local_setup.bash\n'}
+[83.869364] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/karto_sdk/local_setup.sh\n'}
+[83.869465] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/karto_sdk/local_setup.zsh\n'}
+[83.869563] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/karto_sdk/local_setup.dsv\n'}
+[83.869658] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/karto_sdk/package.dsv\n'}
+[83.869766] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/ament_index/resource_index/packages/karto_sdk\n'}
+[83.869891] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/karto_sdk/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[83.870001] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/karto_sdk/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[83.870105] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/karto_sdk/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[83.870209] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/karto_sdk/cmake/karto_sdkConfig.cmake\n'}
+[83.870316] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/karto_sdk/cmake/karto_sdkConfig-version.cmake\n'}
+[83.870406] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/markros2/rosproject/install/slam_toolbox/share/karto_sdk/package.xml\n'}
+[83.872016] (slam_toolbox) CommandEnded: {'returncode': 0}
+[83.925082] (-) TimerEvent: {}
+[84.025595] (-) TimerEvent: {}
+[84.026787] (slam_toolbox) JobEnded: {'identifier': 'slam_toolbox', 'rc': 0}
+[84.027408] (-) EventReactorShutdown: {}
