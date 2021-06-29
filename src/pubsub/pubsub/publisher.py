@@ -10,7 +10,7 @@ def main():
     rclpy.init()
     myfirstpublisher = rclpy.create_node('publisher')
     mypub = myfirstpublisher.create_publisher(PoseWithCovarianceStamped, '/initialpose', 1)
-    myfirstpublisher.create_timer(10.0, mytimercallback)
+    myfirstpublisher.create_timer(0.1, mytimercallback)
     try:
         rclpy.spin_once(myfirstpublisher)
     except KeyboardInterrupt:
