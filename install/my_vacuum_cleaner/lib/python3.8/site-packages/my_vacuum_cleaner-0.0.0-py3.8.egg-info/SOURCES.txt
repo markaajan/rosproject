@@ -9,6 +9,7 @@ setup.py
 ../../build/my_vacuum_cleaner/my_vacuum_cleaner.egg-info/top_level.txt
 ../../build/my_vacuum_cleaner/my_vacuum_cleaner.egg-info/zip-safe
 launch/clean.launch.py
+launch/clean2.launch.py
 my_vacuum_cleaner/__init__.py
 my_vacuum_cleaner/coverage.py
 my_vacuum_cleaner/generate.py

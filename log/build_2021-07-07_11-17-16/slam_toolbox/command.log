@@ -1,0 +1,1 @@
+Invoking command in '/home/markros2/rosproject/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/markros2/ros2/install/vacuum:/opt/ros/foxy /usr/bin/cmake /home/markros2/rosproject/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/markros2/rosproject/install/slam_toolbox

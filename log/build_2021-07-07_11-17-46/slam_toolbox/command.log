@@ -1,0 +1,4 @@
+Invoking command in '/home/markros2/rosproject/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/markros2/ros2/install/vacuum:/opt/ros/foxy /usr/bin/cmake --build /home/markros2/rosproject/build/slam_toolbox -- -j12 -l12
+Invoked command in '/home/markros2/rosproject/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/markros2/ros2/install/vacuum:/opt/ros/foxy /usr/bin/cmake --build /home/markros2/rosproject/build/slam_toolbox -- -j12 -l12
+Invoking command in '/home/markros2/rosproject/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/markros2/ros2/install/vacuum:/opt/ros/foxy /usr/bin/cmake --install /home/markros2/rosproject/build/slam_toolbox
+Invoked command in '/home/markros2/rosproject/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/markros2/ros2/install/vacuum:/opt/ros/foxy /usr/bin/cmake --install /home/markros2/rosproject/build/slam_toolbox

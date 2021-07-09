@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/markros2/rosproject/build/slam_toolbox/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_13e0c/fast && /usr/bin/make -f CMakeFiles/cmTC_13e0c.dir/build.make CMakeFiles/cmTC_13e0c.dir/build
+Run Build Command(s):/usr/bin/make cmTC_badd8/fast && /usr/bin/make -f CMakeFiles/cmTC_badd8.dir/build.make CMakeFiles/cmTC_badd8.dir/build
 make[1]: Entering directory '/home/markros2/rosproject/build/slam_toolbox/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_13e0c.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_13e0c.dir/src.c.o   -c /home/markros2/rosproject/build/slam_toolbox/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_13e0c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13e0c.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_13e0c.dir/src.c.o  -o cmTC_13e0c 
-/usr/bin/ld: CMakeFiles/cmTC_13e0c.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_badd8.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_badd8.dir/src.c.o   -c /home/markros2/rosproject/build/slam_toolbox/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_badd8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_badd8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_badd8.dir/src.c.o  -o cmTC_badd8 
+/usr/bin/ld: CMakeFiles/cmTC_badd8.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_13e0c.dir/build.make:87: cmTC_13e0c] Error 1
+make[1]: *** [CMakeFiles/cmTC_badd8.dir/build.make:87: cmTC_badd8] Error 1
 make[1]: Leaving directory '/home/markros2/rosproject/build/slam_toolbox/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_13e0c/fast] Error 2
+make: *** [Makefile:121: cmTC_badd8/fast] Error 2
 
 
 Source file was:
@@ -41,56 +41,56 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/markros2/rosproject/build/slam_toolbox/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d8b16/fast && /usr/bin/make -f CMakeFiles/cmTC_d8b16.dir/build.make CMakeFiles/cmTC_d8b16.dir/build
+Run Build Command(s):/usr/bin/make cmTC_bbc3a/fast && /usr/bin/make -f CMakeFiles/cmTC_bbc3a.dir/build.make CMakeFiles/cmTC_bbc3a.dir/build
 make[1]: Entering directory '/home/markros2/rosproject/build/slam_toolbox/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d8b16.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d8b16.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d8b16
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8b16.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_d8b16.dir/CheckFunctionExists.c.o  -o cmTC_d8b16  -lpthreads 
+Building C object CMakeFiles/cmTC_bbc3a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_bbc3a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bbc3a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbc3a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_bbc3a.dir/CheckFunctionExists.c.o  -o cmTC_bbc3a  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_d8b16.dir/build.make:87: cmTC_d8b16] Error 1
+make[1]: *** [CMakeFiles/cmTC_bbc3a.dir/build.make:87: cmTC_bbc3a] Error 1
 make[1]: Leaving directory '/home/markros2/rosproject/build/slam_toolbox/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_d8b16/fast] Error 2
+make: *** [Makefile:121: cmTC_bbc3a/fast] Error 2
 
 
 
 Determining if the function sgemm_ exists failed with the following output:
 Change Dir: /home/markros2/rosproject/build/slam_toolbox/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_02489/fast && /usr/bin/make -f CMakeFiles/cmTC_02489.dir/build.make CMakeFiles/cmTC_02489.dir/build
+Run Build Command(s):/usr/bin/make cmTC_54d5a/fast && /usr/bin/make -f CMakeFiles/cmTC_54d5a.dir/build.make CMakeFiles/cmTC_54d5a.dir/build
 make[1]: Entering directory '/home/markros2/rosproject/build/slam_toolbox/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_02489.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_   -o CMakeFiles/cmTC_02489.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_02489
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02489.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_    CMakeFiles/cmTC_02489.dir/CheckFunctionExists.c.o  -o cmTC_02489 
-/usr/bin/ld: CMakeFiles/cmTC_02489.dir/CheckFunctionExists.c.o: in function `main':
+Building C object CMakeFiles/cmTC_54d5a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_   -o CMakeFiles/cmTC_54d5a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_54d5a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54d5a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_    CMakeFiles/cmTC_54d5a.dir/CheckFunctionExists.c.o  -o cmTC_54d5a 
+/usr/bin/ld: CMakeFiles/cmTC_54d5a.dir/CheckFunctionExists.c.o: in function `main':
 CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_02489.dir/build.make:87: cmTC_02489] Error 1
+make[1]: *** [CMakeFiles/cmTC_54d5a.dir/build.make:87: cmTC_54d5a] Error 1
 make[1]: Leaving directory '/home/markros2/rosproject/build/slam_toolbox/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_02489/fast] Error 2
+make: *** [Makefile:121: cmTC_54d5a/fast] Error 2
 
 
 
 Determining if the function cheev_ exists failed with the following output:
 Change Dir: /home/markros2/rosproject/build/slam_toolbox/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b2603/fast && /usr/bin/make -f CMakeFiles/cmTC_b2603.dir/build.make CMakeFiles/cmTC_b2603.dir/build
+Run Build Command(s):/usr/bin/make cmTC_2a413/fast && /usr/bin/make -f CMakeFiles/cmTC_2a413.dir/build.make CMakeFiles/cmTC_2a413.dir/build
 make[1]: Entering directory '/home/markros2/rosproject/build/slam_toolbox/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b2603.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_   -o CMakeFiles/cmTC_b2603.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b2603
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2603.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_    CMakeFiles/cmTC_b2603.dir/CheckFunctionExists.c.o  -o cmTC_b2603  /usr/lib/x86_64-linux-gnu/libblas.so 
-/usr/bin/ld: CMakeFiles/cmTC_b2603.dir/CheckFunctionExists.c.o: in function `main':
+Building C object CMakeFiles/cmTC_2a413.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_   -o CMakeFiles/cmTC_2a413.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2a413
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a413.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_    CMakeFiles/cmTC_2a413.dir/CheckFunctionExists.c.o  -o cmTC_2a413  /usr/lib/x86_64-linux-gnu/libblas.so 
+/usr/bin/ld: CMakeFiles/cmTC_2a413.dir/CheckFunctionExists.c.o: in function `main':
 CheckFunctionExists.c:(.text+0x14): undefined reference to `cheev_'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_b2603.dir/build.make:88: cmTC_b2603] Error 1
+make[1]: *** [CMakeFiles/cmTC_2a413.dir/build.make:88: cmTC_2a413] Error 1
 make[1]: Leaving directory '/home/markros2/rosproject/build/slam_toolbox/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_b2603/fast] Error 2
+make: *** [Makefile:121: cmTC_2a413/fast] Error 2
 
 
 

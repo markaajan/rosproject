@@ -1,0 +1,355 @@
+[0.348s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.348s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4f70344400>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4f70344400>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f4f70344940>)
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.359s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/markros2/rosproject'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extension 'ros'
+[0.374s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_navigation' with type 'ros.ament_python' and name 'my_robot_navigation'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_slam) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_slam) by extension 'ignore_ament_install'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_slam) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_slam) by extension 'colcon_pkg'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_slam) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_slam) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_slam) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_slam) by extension 'ros'
+[0.376s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_slam' with type 'ros.ament_python' and name 'my_robot_slam'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_vacuum_cleaner) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_vacuum_cleaner) by extension 'ignore'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_vacuum_cleaner) by extension 'ignore_ament_install'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_vacuum_cleaner) by extensions ['colcon_pkg']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_vacuum_cleaner) by extension 'colcon_pkg'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_vacuum_cleaner) by extensions ['colcon_meta']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_vacuum_cleaner) by extension 'colcon_meta'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_vacuum_cleaner) by extensions ['ros']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_vacuum_cleaner) by extension 'ros'
+[0.377s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_vacuum_cleaner' with type 'ros.ament_python' and name 'my_vacuum_cleaner'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub) by extension 'ignore_ament_install'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub) by extensions ['colcon_pkg']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub) by extension 'colcon_pkg'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub) by extensions ['colcon_meta']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub) by extension 'colcon_meta'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub) by extensions ['ros']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub) by extension 'ros'
+[0.378s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pubsub' with type 'ros.ament_python' and name 'pubsub'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ignore'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ignore_ament_install'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['colcon_pkg']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'colcon_pkg'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['colcon_meta']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'colcon_meta'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['ros']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ros'
+[0.381s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_toolbox' with type 'ros.ament_cmake' and name 'slam_toolbox'
+[0.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_target' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.404s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/markros2/rosproject/build/my_robot_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/markros2/rosproject/install/my_robot_navigation', 'merge_install': False, 'path': '/home/markros2/rosproject/src/my_robot_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'my_robot_slam' build argument 'cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'my_robot_slam' build argument 'cmake_target' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'my_robot_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'my_robot_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'my_robot_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'my_robot_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'my_robot_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'my_robot_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'my_robot_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.407s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/markros2/rosproject/build/my_robot_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/markros2/rosproject/install/my_robot_slam', 'merge_install': False, 'path': '/home/markros2/rosproject/src/my_robot_slam', 'symlink_install': False, 'test_result_base': None}
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'my_vacuum_cleaner' build argument 'cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'my_vacuum_cleaner' build argument 'cmake_target' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'my_vacuum_cleaner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'my_vacuum_cleaner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'my_vacuum_cleaner' build argument 'cmake_clean_first' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'my_vacuum_cleaner' build argument 'cmake_force_configure' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'my_vacuum_cleaner' build argument 'ament_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'my_vacuum_cleaner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'my_vacuum_cleaner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.410s] DEBUG:colcon.colcon_core.verb:Building package 'my_vacuum_cleaner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/markros2/rosproject/build/my_vacuum_cleaner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/markros2/rosproject/install/my_vacuum_cleaner', 'merge_install': False, 'path': '/home/markros2/rosproject/src/my_vacuum_cleaner', 'symlink_install': False, 'test_result_base': None}
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'cmake_target' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.412s] DEBUG:colcon.colcon_core.verb:Building package 'pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/markros2/rosproject/build/pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/markros2/rosproject/install/pubsub', 'merge_install': False, 'path': '/home/markros2/rosproject/src/pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_target' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.414s] DEBUG:colcon.colcon_core.verb:Building package 'slam_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/markros2/rosproject/build/slam_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/markros2/rosproject/install/slam_toolbox', 'merge_install': False, 'path': '/home/markros2/rosproject/src/slam_toolbox', 'symlink_install': False, 'test_result_base': None}
+[0.415s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.416s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.417s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/markros2/rosproject/src/my_robot_navigation' with build type 'ament_python'
+[0.417s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_navigation', 'ament_prefix_path')
+[0.425s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/my_robot_navigation/share/my_robot_navigation/hook/ament_prefix_path.ps1'
+[0.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/markros2/rosproject/install/my_robot_navigation/share/my_robot_navigation/hook/ament_prefix_path.dsv'
+[0.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/my_robot_navigation/share/my_robot_navigation/hook/ament_prefix_path.sh'
+[0.428s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.428s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.432s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.435s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/markros2/rosproject/src/my_robot_slam' with build type 'ament_python'
+[0.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_slam', 'ament_prefix_path')
+[0.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/my_robot_slam/share/my_robot_slam/hook/ament_prefix_path.ps1'
+[0.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/markros2/rosproject/install/my_robot_slam/share/my_robot_slam/hook/ament_prefix_path.dsv'
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/my_robot_slam/share/my_robot_slam/hook/ament_prefix_path.sh'
+[0.438s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.439s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.441s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/markros2/rosproject/src/my_vacuum_cleaner' with build type 'ament_python'
+[0.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_vacuum_cleaner', 'ament_prefix_path')
+[0.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/my_vacuum_cleaner/share/my_vacuum_cleaner/hook/ament_prefix_path.ps1'
+[0.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/markros2/rosproject/install/my_vacuum_cleaner/share/my_vacuum_cleaner/hook/ament_prefix_path.dsv'
+[0.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/my_vacuum_cleaner/share/my_vacuum_cleaner/hook/ament_prefix_path.sh'
+[0.445s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.445s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.447s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.449s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/markros2/rosproject/src/pubsub' with build type 'ament_python'
+[0.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub', 'ament_prefix_path')
+[0.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/pubsub/share/pubsub/hook/ament_prefix_path.ps1'
+[0.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/markros2/rosproject/install/pubsub/share/pubsub/hook/ament_prefix_path.dsv'
+[0.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/pubsub/share/pubsub/hook/ament_prefix_path.sh'
+[0.451s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.451s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.453s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.456s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/markros2/rosproject/src/slam_toolbox' with build type 'ament_cmake'
+[0.456s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/markros2/rosproject/src/slam_toolbox'
+[0.457s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.457s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.459s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.679s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/markros2/rosproject/src/my_robot_navigation'
+[0.680s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.680s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.682s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.873s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/markros2/rosproject/src/my_robot_slam'
+[0.874s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.874s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.876s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.079s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/markros2/rosproject/src/my_vacuum_cleaner'
+[1.079s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.079s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.081s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.279s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/markros2/rosproject/src/pubsub'
+[1.280s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.280s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.282s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/markros2/rosproject/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/markros2/rosproject/install/pubsub:/home/markros2/rosproject/install/my_vacuum_cleaner:/home/markros2/rosproject/install/my_robot_slam:/home/markros2/rosproject/install/my_robot_navigation:/home/markros2/ros2/install/vacuum:/opt/ros/foxy /usr/bin/cmake --build /home/markros2/rosproject/build/slam_toolbox -- -j12 -l12
+[1.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/markros2/rosproject/src/my_robot_navigation': PYTHONPATH=/home/markros2/rosproject/install/my_robot_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_navigation build --build-base /home/markros2/rosproject/build/my_robot_navigation/build install --prefix /home/markros2/rosproject/install/my_robot_navigation --record /home/markros2/rosproject/build/my_robot_navigation/install.log --single-version-externally-managed
+[1.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/markros2/rosproject/src/my_robot_slam': PYTHONPATH=/home/markros2/rosproject/install/my_robot_slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_slam build --build-base /home/markros2/rosproject/build/my_robot_slam/build install --prefix /home/markros2/rosproject/install/my_robot_slam --record /home/markros2/rosproject/build/my_robot_slam/install.log --single-version-externally-managed
+[1.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/markros2/rosproject/src/my_vacuum_cleaner': PYTHONPATH=/home/markros2/rosproject/install/my_vacuum_cleaner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_vacuum_cleaner build --build-base /home/markros2/rosproject/build/my_vacuum_cleaner/build install --prefix /home/markros2/rosproject/install/my_vacuum_cleaner --record /home/markros2/rosproject/build/my_vacuum_cleaner/install.log --single-version-externally-managed
+[1.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/markros2/rosproject/src/pubsub': PYTHONPATH=/home/markros2/rosproject/install/pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/markros2/rosproject/build/pubsub/build install --prefix /home/markros2/rosproject/install/pubsub --record /home/markros2/rosproject/build/pubsub/install.log --single-version-externally-managed
+[1.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/markros2/rosproject/src/pubsub' returned '0': PYTHONPATH=/home/markros2/rosproject/install/pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/markros2/rosproject/build/pubsub/build install --prefix /home/markros2/rosproject/install/pubsub --record /home/markros2/rosproject/build/pubsub/install.log --single-version-externally-managed
+[1.624s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/pubsub' for CMake module files
+[1.625s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/pubsub' for CMake config files
+[1.626s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/pubsub/lib'
+[1.627s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/pubsub/bin'
+[1.627s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/pubsub/lib/pkgconfig/pubsub.pc'
+[1.627s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/pubsub/lib/python3.8/site-packages'
+[1.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub', 'pythonpath')
+[1.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/pubsub/share/pubsub/hook/pythonpath.ps1'
+[1.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/markros2/rosproject/install/pubsub/share/pubsub/hook/pythonpath.dsv'
+[1.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/pubsub/share/pubsub/hook/pythonpath.sh'
+[1.630s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pubsub)
+[1.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/pubsub/share/pubsub/package.ps1'
+[1.633s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/markros2/rosproject/install/pubsub/share/pubsub/package.dsv'
+[1.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/pubsub/share/pubsub/package.sh'
+[1.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/pubsub/share/pubsub/package.bash'
+[1.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/pubsub/share/pubsub/package.zsh'
+[1.639s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/markros2/rosproject/install/pubsub/share/colcon-core/packages/pubsub)
+[1.641s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/my_robot_slam' for CMake module files
+[1.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/markros2/rosproject/src/my_robot_slam' returned '0': PYTHONPATH=/home/markros2/rosproject/install/my_robot_slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_slam build --build-base /home/markros2/rosproject/build/my_robot_slam/build install --prefix /home/markros2/rosproject/install/my_robot_slam --record /home/markros2/rosproject/build/my_robot_slam/install.log --single-version-externally-managed
+[1.642s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/my_robot_slam' for CMake config files
+[1.643s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/my_robot_slam/lib'
+[1.643s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/my_robot_slam/bin'
+[1.643s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/my_robot_slam/lib/pkgconfig/my_robot_slam.pc'
+[1.643s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/my_robot_slam/lib/python3.8/site-packages'
+[1.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_slam', 'pythonpath')
+[1.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/my_robot_slam/share/my_robot_slam/hook/pythonpath.ps1'
+[1.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/markros2/rosproject/install/my_robot_slam/share/my_robot_slam/hook/pythonpath.dsv'
+[1.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/my_robot_slam/share/my_robot_slam/hook/pythonpath.sh'
+[1.645s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_slam)
+[1.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/my_robot_slam/share/my_robot_slam/package.ps1'
+[1.646s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/markros2/rosproject/install/my_robot_slam/share/my_robot_slam/package.dsv'
+[1.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/my_robot_slam/share/my_robot_slam/package.sh'
+[1.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/my_robot_slam/share/my_robot_slam/package.bash'
+[1.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/my_robot_slam/share/my_robot_slam/package.zsh'
+[1.647s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/markros2/rosproject/install/my_robot_slam/share/colcon-core/packages/my_robot_slam)
+[1.648s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/my_robot_navigation' for CMake module files
+[1.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/markros2/rosproject/src/my_robot_navigation' returned '0': PYTHONPATH=/home/markros2/rosproject/install/my_robot_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_navigation build --build-base /home/markros2/rosproject/build/my_robot_navigation/build install --prefix /home/markros2/rosproject/install/my_robot_navigation --record /home/markros2/rosproject/build/my_robot_navigation/install.log --single-version-externally-managed
+[1.649s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/my_robot_navigation' for CMake config files
+[1.650s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/my_robot_navigation/lib'
+[1.650s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/my_robot_navigation/bin'
+[1.650s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/my_robot_navigation/lib/pkgconfig/my_robot_navigation.pc'
+[1.650s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/my_robot_navigation/lib/python3.8/site-packages'
+[1.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_navigation', 'pythonpath')
+[1.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/my_robot_navigation/share/my_robot_navigation/hook/pythonpath.ps1'
+[1.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/markros2/rosproject/install/my_robot_navigation/share/my_robot_navigation/hook/pythonpath.dsv'
+[1.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/my_robot_navigation/share/my_robot_navigation/hook/pythonpath.sh'
+[1.652s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_navigation)
+[1.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/my_robot_navigation/share/my_robot_navigation/package.ps1'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/markros2/rosproject/install/my_robot_navigation/share/my_robot_navigation/package.dsv'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/my_robot_navigation/share/my_robot_navigation/package.sh'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/my_robot_navigation/share/my_robot_navigation/package.bash'
+[1.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/my_robot_navigation/share/my_robot_navigation/package.zsh'
+[1.654s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/markros2/rosproject/install/my_robot_navigation/share/colcon-core/packages/my_robot_navigation)
+[1.655s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/my_vacuum_cleaner' for CMake module files
+[1.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/markros2/rosproject/src/my_vacuum_cleaner' returned '0': PYTHONPATH=/home/markros2/rosproject/install/my_vacuum_cleaner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_vacuum_cleaner build --build-base /home/markros2/rosproject/build/my_vacuum_cleaner/build install --prefix /home/markros2/rosproject/install/my_vacuum_cleaner --record /home/markros2/rosproject/build/my_vacuum_cleaner/install.log --single-version-externally-managed
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/my_vacuum_cleaner' for CMake config files
+[1.657s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/my_vacuum_cleaner/lib'
+[1.657s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/my_vacuum_cleaner/bin'
+[1.657s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/my_vacuum_cleaner/lib/pkgconfig/my_vacuum_cleaner.pc'
+[1.657s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/my_vacuum_cleaner/lib/python3.8/site-packages'
+[1.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_vacuum_cleaner', 'pythonpath')
+[1.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/my_vacuum_cleaner/share/my_vacuum_cleaner/hook/pythonpath.ps1'
+[1.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/markros2/rosproject/install/my_vacuum_cleaner/share/my_vacuum_cleaner/hook/pythonpath.dsv'
+[1.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/my_vacuum_cleaner/share/my_vacuum_cleaner/hook/pythonpath.sh'
+[1.658s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_vacuum_cleaner)
+[1.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/my_vacuum_cleaner/share/my_vacuum_cleaner/package.ps1'
+[1.659s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/markros2/rosproject/install/my_vacuum_cleaner/share/my_vacuum_cleaner/package.dsv'
+[1.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/my_vacuum_cleaner/share/my_vacuum_cleaner/package.sh'
+[1.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/my_vacuum_cleaner/share/my_vacuum_cleaner/package.bash'
+[1.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/my_vacuum_cleaner/share/my_vacuum_cleaner/package.zsh'
+[1.661s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/markros2/rosproject/install/my_vacuum_cleaner/share/colcon-core/packages/my_vacuum_cleaner)
+[1.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/markros2/rosproject/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/markros2/rosproject/install/pubsub:/home/markros2/rosproject/install/my_vacuum_cleaner:/home/markros2/rosproject/install/my_robot_slam:/home/markros2/rosproject/install/my_robot_navigation:/home/markros2/ros2/install/vacuum:/opt/ros/foxy /usr/bin/cmake --build /home/markros2/rosproject/build/slam_toolbox -- -j12 -l12
+[1.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/markros2/rosproject/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/markros2/rosproject/install/pubsub:/home/markros2/rosproject/install/my_vacuum_cleaner:/home/markros2/rosproject/install/my_robot_slam:/home/markros2/rosproject/install/my_robot_navigation:/home/markros2/ros2/install/vacuum:/opt/ros/foxy /usr/bin/cmake --install /home/markros2/rosproject/build/slam_toolbox
+[1.969s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_toolbox)
+[1.970s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/slam_toolbox' for CMake module files
+[1.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/markros2/rosproject/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/markros2/rosproject/install/pubsub:/home/markros2/rosproject/install/my_vacuum_cleaner:/home/markros2/rosproject/install/my_robot_slam:/home/markros2/rosproject/install/my_robot_navigation:/home/markros2/ros2/install/vacuum:/opt/ros/foxy /usr/bin/cmake --install /home/markros2/rosproject/build/slam_toolbox
+[1.971s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/slam_toolbox' for CMake config files
+[1.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'cmake_prefix_path')
+[1.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.ps1'
+[1.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.dsv'
+[1.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.sh'
+[1.973s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/slam_toolbox/lib'
+[1.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'ld_library_path_lib')
+[1.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.ps1'
+[1.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.dsv'
+[1.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.sh'
+[1.974s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/slam_toolbox/bin'
+[1.974s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/slam_toolbox/lib/pkgconfig/slam_toolbox.pc'
+[1.974s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages'
+[1.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'pythonpath')
+[1.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.ps1'
+[1.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.dsv'
+[1.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.sh'
+[1.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/package.ps1'
+[1.977s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/package.dsv'
+[1.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/package.sh'
+[1.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/package.bash'
+[1.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/package.zsh'
+[1.978s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/markros2/rosproject/install/slam_toolbox/share/colcon-core/packages/slam_toolbox)
+[2.119s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_toolbox)
+[2.119s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/slam_toolbox' for CMake module files
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/slam_toolbox' for CMake config files
+[2.120s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'cmake_prefix_path')
+[2.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.ps1'
+[2.121s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.dsv'
+[2.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.sh'
+[2.122s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/slam_toolbox/lib'
+[2.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'ld_library_path_lib')
+[2.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.ps1'
+[2.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.dsv'
+[2.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.sh'
+[2.123s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/slam_toolbox/bin'
+[2.123s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/slam_toolbox/lib/pkgconfig/slam_toolbox.pc'
+[2.123s] Level 1:colcon.colcon_core.environment:checking '/home/markros2/rosproject/install/slam_toolbox/lib/python3.8/site-packages'
+[2.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'pythonpath')
+[2.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.ps1'
+[2.124s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.dsv'
+[2.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.sh'
+[2.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/package.ps1'
+[2.126s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/package.dsv'
+[2.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/package.sh'
+[2.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/package.bash'
+[2.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/markros2/rosproject/install/slam_toolbox/share/slam_toolbox/package.zsh'
+[2.127s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/markros2/rosproject/install/slam_toolbox/share/colcon-core/packages/slam_toolbox)
+[2.127s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.128s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.128s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.128s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.134s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.135s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.135s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.149s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.149s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/markros2/rosproject/install/local_setup.ps1'
+[2.150s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/markros2/rosproject/install/_local_setup_util_ps1.py'
+[2.152s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/markros2/rosproject/install/setup.ps1'
+[2.154s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/markros2/rosproject/install/local_setup.sh'
+[2.155s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/markros2/rosproject/install/_local_setup_util_sh.py'
+[2.155s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/markros2/rosproject/install/setup.sh'
+[2.157s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/markros2/rosproject/install/local_setup.bash'
+[2.158s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/markros2/rosproject/install/setup.bash'
+[2.160s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/markros2/rosproject/install/local_setup.zsh'
+[2.161s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/markros2/rosproject/install/setup.zsh'

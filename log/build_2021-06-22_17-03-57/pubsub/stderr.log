@@ -1,5 +1,0 @@
-  File "/home/markros2/rosproject/install/pubsub/lib/python3.8/site-packages/pubsub/publisher.py", line 6
-    global flag = 1
-                ^
-SyntaxError: invalid syntax
-

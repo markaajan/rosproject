@@ -1,0 +1,213 @@
+[0.000000] (-) TimerEvent: {}
+[0.000278] (my_robot_navigation) JobQueued: {'identifier': 'my_robot_navigation', 'dependencies': OrderedDict()}
+[0.001260] (my_robot_slam) JobQueued: {'identifier': 'my_robot_slam', 'dependencies': OrderedDict()}
+[0.001291] (my_vacuum_cleaner) JobQueued: {'identifier': 'my_vacuum_cleaner', 'dependencies': OrderedDict()}
+[0.001311] (pubsub) JobQueued: {'identifier': 'pubsub', 'dependencies': OrderedDict()}
+[0.001329] (slam_toolbox) JobQueued: {'identifier': 'slam_toolbox', 'dependencies': OrderedDict()}
+[0.001349] (vacuum) JobQueued: {'identifier': 'vacuum', 'dependencies': OrderedDict()}
+[0.001367] (my_robot_navigation) JobStarted: {'identifier': 'my_robot_navigation'}
+[0.033070] (my_robot_slam) JobStarted: {'identifier': 'my_robot_slam'}
+[0.042688] (my_vacuum_cleaner) JobStarted: {'identifier': 'my_vacuum_cleaner'}
+[0.049786] (pubsub) JobStarted: {'identifier': 'pubsub'}
+[0.054363] (slam_toolbox) JobStarted: {'identifier': 'slam_toolbox'}
+[0.058463] (vacuum) JobStarted: {'identifier': 'vacuum'}
+[0.099744] (-) TimerEvent: {}
+[0.200150] (-) TimerEvent: {}
+[0.300521] (-) TimerEvent: {}
+[0.400923] (-) TimerEvent: {}
+[0.501271] (-) TimerEvent: {}
+[0.601676] (-) TimerEvent: {}
+[0.702027] (-) TimerEvent: {}
+[0.800785] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'cmake'}
+[0.800862] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '/home/markros2/rosproject/src/slam_toolbox', '-DCMAKE_INSTALL_PREFIX=/home/markros2/rosproject/install/slam_toolbox'], 'cwd': '/home/markros2/rosproject/build/slam_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'markros2'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '2035'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/markros2/ros2/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/markros2'), ('OLDPWD', '/home/markros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1805'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/markros2/ros2/install:/home/markros2/rosproject/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'markros2'), ('JOURNAL_STREAM', '8:56422'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'markros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/markros2-G5-5500:@/tmp/.ICE-unix/2070,unix/markros2-G5-5500:/tmp/.ICE-unix/2070'), ('INVOCATION_ID', '8eacdb46ca2840998579b3832a3031ea'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/339cb17d_2942_4592_997e_e130df0f405a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.86'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/markros2/ros2/install/vacuum:/home/markros2/ros2/install/slam_toolbox:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/markros2/rosproject/build/slam_toolbox'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/markros2/ros2/install/vacuum/lib/python3.8/site-packages:/home/markros2/ros2/install/slam_toolbox/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/markros2/ros2/install/slam_toolbox:/home/markros2/ros2/install/vacuum:/opt/ros/foxy')]), 'shell': False}
+[0.802063] (-) TimerEvent: {}
+[0.902352] (-) TimerEvent: {}
+[1.002771] (-) TimerEvent: {}
+[1.072855] (vacuum) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_identification/ros.py", line 129, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 281, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.8/subprocess.py", line 516, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', "import sys;from setuptools.extern.packaging.specifiers import SpecifierSet;from distutils.core import run_setup;dist = run_setup(    \'setup.py\', script_args=(\'--dry-run\',), stop_after=\'config\');skip_keys = (\'cmdclass\', \'distclass\', \'ext_modules\', \'metadata\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\'_\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\'metadata\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\'license_files\', \'provides_extras\')};sys.stdout.buffer.write(repr(data).encode(\'utf-8\'))"]\' returned non-zero exit status 1.\n'}
+[1.073882] (vacuum) JobEnded: {'identifier': 'vacuum', 'rc': 1}
+[1.075390] (my_robot_navigation) JobEnded: {'identifier': 'my_robot_navigation', 'rc': 'SIGINT'}
+[1.075965] (my_robot_slam) JobEnded: {'identifier': 'my_robot_slam', 'rc': 'SIGINT'}
+[1.076142] (my_vacuum_cleaner) JobEnded: {'identifier': 'my_vacuum_cleaner', 'rc': 'SIGINT'}
+[1.076320] (pubsub) JobEnded: {'identifier': 'pubsub', 'rc': 'SIGINT'}
+[1.102884] (-) TimerEvent: {}
+[1.148104] (slam_toolbox) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[1.202972] (-) TimerEvent: {}
+[1.303252] (-) TimerEvent: {}
+[1.403754] (-) TimerEvent: {}
+[1.427223] (slam_toolbox) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[1.445262] (slam_toolbox) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.503887] (-) TimerEvent: {}
+[1.519472] (slam_toolbox) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.522700] (slam_toolbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.594172] (slam_toolbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.603993] (-) TimerEvent: {}
+[1.609049] (slam_toolbox) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.610228] (slam_toolbox) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.615692] (slam_toolbox) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.681356] (slam_toolbox) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.682333] (slam_toolbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.704119] (-) TimerEvent: {}
+[1.747582] (slam_toolbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.758574] (slam_toolbox) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.759083] (slam_toolbox) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.773797] (slam_toolbox) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.804288] (-) TimerEvent: {}
+[1.822613] (slam_toolbox) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.822741] (slam_toolbox) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.904359] (-) TimerEvent: {}
+[2.004564] (-) TimerEvent: {}
+[2.102238] (slam_toolbox) StdoutLine: {'line': b'-- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)\n'}
+[2.104648] (-) TimerEvent: {}
+[2.114794] (slam_toolbox) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[2.202215] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.204732] (-) TimerEvent: {}
+[2.226418] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.304828] (-) TimerEvent: {}
+[2.380526] (slam_toolbox) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.404929] (-) TimerEvent: {}
+[2.410168] (slam_toolbox) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.505052] (-) TimerEvent: {}
+[2.521307] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.605156] (-) TimerEvent: {}
+[2.705385] (-) TimerEvent: {}
+[2.732312] (slam_toolbox) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.805495] (-) TimerEvent: {}
+[2.823310] (slam_toolbox) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.829554] (slam_toolbox) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.833672] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.905617] (-) TimerEvent: {}
+[2.916944] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.917202] (slam_toolbox) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.980238] (slam_toolbox) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.980453] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.005705] (-) TimerEvent: {}
+[3.027288] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.027515] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.082795] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[3.083749] (slam_toolbox) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.105802] (-) TimerEvent: {}
+[3.206030] (-) TimerEvent: {}
+[3.306229] (slam_toolbox) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[3.306363] (-) TimerEvent: {}
+[3.393640] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2: 0.13.10 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[3.406469] (-) TimerEvent: {}
+[3.424119] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.10 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[3.506573] (-) TimerEvent: {}
+[3.606774] (-) TimerEvent: {}
+[3.706970] (-) TimerEvent: {}
+[3.807155] (-) TimerEvent: {}
+[3.825532] (slam_toolbox) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.4 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[3.907255] (-) TimerEvent: {}
+[3.912171] (slam_toolbox) StdoutLine: {'line': b'-- Found pluginlib: 2.5.3 (/opt/ros/foxy/share/pluginlib/cmake)\n'}
+[3.936300] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.10 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[3.952390] (slam_toolbox) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[3.963524] (slam_toolbox) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[3.987751] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.13.10 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)\n'}
+[4.005521] (slam_toolbox) StdoutLine: {'line': b'-- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[4.007429] (-) TimerEvent: {}
+[4.038995] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[4.064306] (slam_toolbox) StdoutLine: {'line': b'-- Found nav2_map_server: 0.4.7 (/opt/ros/foxy/share/nav2_map_server/cmake)\n'}
+[4.071704] (slam_toolbox) StdoutLine: {'line': b'-- Found rviz_common: 8.2.1 (/opt/ros/foxy/share/rviz_common/cmake)\n'}
+[4.107611] (-) TimerEvent: {}
+[4.178475] (slam_toolbox) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[4.188824] (slam_toolbox) StdoutLine: {'line': b'-- Found OGRE\n'}
+[4.189114] (slam_toolbox) StdoutLine: {'line': b'--   static     : OFF\n'}
+[4.189312] (slam_toolbox) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[4.189503] (slam_toolbox) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[4.189691] (slam_toolbox) StdoutLine: {'line': b'--   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[4.190077] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[4.190250] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib\n'}
+[4.190393] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[4.190539] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[4.190672] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[4.190813] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[4.191131] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[4.191305] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[4.207714] (-) TimerEvent: {}
+[4.220460] (slam_toolbox) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[4.227717] (slam_toolbox) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[4.297735] (slam_toolbox) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[4.298567] (slam_toolbox) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[4.307791] (-) TimerEvent: {}
+[4.363477] (slam_toolbox) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[4.363670] (slam_toolbox) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[4.407928] (-) TimerEvent: {}
+[4.427432] (slam_toolbox) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[4.427676] (slam_toolbox) StdoutLine: {'line': b'-- Looking for connect\n'}
+[4.503083] (slam_toolbox) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[4.503421] (slam_toolbox) StdoutLine: {'line': b'-- Looking for remove\n'}
+[4.508034] (-) TimerEvent: {}
+[4.584995] (slam_toolbox) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[4.585367] (slam_toolbox) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[4.608140] (-) TimerEvent: {}
+[4.660735] (slam_toolbox) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[4.661044] (slam_toolbox) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[4.708241] (-) TimerEvent: {}
+[4.725108] (slam_toolbox) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[4.728280] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[4.728406] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[4.802842] (slam_toolbox) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[4.808281] (-) TimerEvent: {}
+[4.904952] (slam_toolbox) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[4.908361] (-) TimerEvent: {}
+[4.918227] (slam_toolbox) StdoutLine: {'line': b'-- Found rviz_default_plugins: 8.2.1 (/opt/ros/foxy/share/rviz_default_plugins/cmake)\n'}
+[5.008450] (-) TimerEvent: {}
+[5.108672] (-) TimerEvent: {}
+[5.208842] (-) TimerEvent: {}
+[5.309054] (-) TimerEvent: {}
+[5.316869] (slam_toolbox) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system serialization filesystem thread \n'}
+[5.409246] (-) TimerEvent: {}
+[5.428574] (slam_toolbox) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[5.443308] (slam_toolbox) StdoutLine: {'line': b'-- Found CSPARSE: /usr/include/suitesparse  \n'}
+[5.494559] (slam_toolbox) StdoutLine: {'line': b'-- Found CHOLMOD: /usr/include/suitesparse  \n'}
+[5.502838] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[5.509349] (-) TimerEvent: {}
+[5.561330] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_ - not found\n'}
+[5.593896] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[5.609458] (-) TimerEvent: {}
+[5.654622] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_ - found\n'}
+[5.654967] (slam_toolbox) StdoutLine: {'line': b'-- Found BLAS: /usr/lib/x86_64-linux-gnu/libblas.so  \n'}
+[5.657048] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_\n'}
+[5.709579] (-) TimerEvent: {}
+[5.711689] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_ - not found\n'}
+[5.720127] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_\n'}
+[5.809782] (-) TimerEvent: {}
+[5.824879] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_ - found\n'}
+[5.825212] (slam_toolbox) StdoutLine: {'line': b'-- A library with LAPACK API found.\n'}
+[5.832850] (slam_toolbox) StdoutLine: {'line': b'-- Found installed version of Eigen: /usr/lib/cmake/eigen3\n'}
+[5.840030] (slam_toolbox) StdoutLine: {'line': b'-- Found required Ceres dependency: Eigen version 3.3.7 in /usr/include/eigen3\n'}
+[5.843516] (slam_toolbox) StdoutLine: {'line': b'-- Found required Ceres dependency: glog\n'}
+[5.850431] (slam_toolbox) StdoutLine: {'line': b'-- Found installed version of gflags: /usr/lib/x86_64-linux-gnu/cmake/gflags\n'}
+[5.850529] (slam_toolbox) StdoutLine: {'line': b'-- Detected gflags version: 2.2.2\n'}
+[5.854315] (slam_toolbox) StdoutLine: {'line': b'-- Found required Ceres dependency: gflags\n'}
+[5.856254] (slam_toolbox) StdoutLine: {'line': b'-- Found Ceres version: 1.14.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]\n'}
+[5.894465] (slam_toolbox) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[5.909861] (-) TimerEvent: {}
+[6.010081] (-) TimerEvent: {}
+[6.110315] (-) TimerEvent: {}
+[6.155066] (slam_toolbox) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[6.210425] (-) TimerEvent: {}
+[6.310665] (-) TimerEvent: {}
+[6.410932] (-) TimerEvent: {}
+[6.455117] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.511029] (-) TimerEvent: {}
+[6.596221] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.611137] (-) TimerEvent: {}
+[6.620387] (slam_toolbox) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[6.623531] (slam_toolbox) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[6.652833] (slam_toolbox) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[6.653071] (slam_toolbox) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.653167] (slam_toolbox) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[6.653235] (slam_toolbox) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[6.671967] (slam_toolbox) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[6.711268] (-) TimerEvent: {}
+[6.811532] (-) TimerEvent: {}
+[6.818808] (slam_toolbox) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.911655] (-) TimerEvent: {}
+[7.011907] (-) TimerEvent: {}
+[7.112137] (-) TimerEvent: {}
+[7.212369] (-) TimerEvent: {}
+[7.242430] (slam_toolbox) StdoutLine: {'line': b'-- Generating done\n'}
+[7.246470] (slam_toolbox) StdoutLine: {'line': b'-- Build files have been written to: /home/markros2/rosproject/build/slam_toolbox\n'}
+[7.258699] (slam_toolbox) JobEnded: {'identifier': 'slam_toolbox', 'rc': 'SIGINT'}
+[7.269240] (-) EventReactorShutdown: {}

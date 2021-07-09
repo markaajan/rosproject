@@ -12,7 +12,6 @@ def generate_launch_description():
     ttbot3 = get_package_share_directory('turtlebot3_gazebo')
     local = get_package_share_directory('my_robot_slam')
     navi = get_package_share_directory('my_robot_navigation')
-    initpose = get_package_share_directory('pubsub')
     return LaunchDescription([
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
@@ -24,16 +23,23 @@ def generate_launch_description():
                 os.path.join(local, 'localization.launch.py')
             ),
         ),
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(
-                os.path.join(navi, 'navigation.launch.py')
-            ),
-        ),
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(
-                os.path.join(initpose, 'publisher.launch.py')
-            ),
-        ),
+        #IncludeLaunchDescription(
+        #    PythonLaunchDescriptionSource(
+        #       os.path.join(navi, 'navigation.launch.py')
+        #    ),
+        #),
+        Node(
+            package='pubsub',
+            executable='publisher',
+            name='set_initial_pose',
+            output='screen'),
+        Node(
+           package='my_vacuum_cleaner',
+           node_executable='coverage',
+           node_name='coverage',
+           output='screen'),
+
+
 
 
     ])
