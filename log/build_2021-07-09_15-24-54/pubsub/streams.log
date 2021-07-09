@@ -1,0 +1,21 @@
+[0.706s] Invoking command in '/home/text/rosproject/src/pubsub': PYTHONPATH=/home/text/rosproject/install/pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/text/rosproject/build/pubsub/build install --prefix /home/text/rosproject/install/pubsub --record /home/text/rosproject/build/pubsub/install.log --single-version-externally-managed
+[0.866s] running egg_info
+[0.866s] writing ../../build/pubsub/pubsub.egg-info/PKG-INFO
+[0.866s] writing dependency_links to ../../build/pubsub/pubsub.egg-info/dependency_links.txt
+[0.867s] writing entry points to ../../build/pubsub/pubsub.egg-info/entry_points.txt
+[0.867s] writing requirements to ../../build/pubsub/pubsub.egg-info/requires.txt
+[0.868s] writing top-level names to ../../build/pubsub/pubsub.egg-info/top_level.txt
+[0.894s] reading manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[0.895s] writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[0.895s] running build
+[0.895s] running build_py
+[0.895s] running install
+[0.895s] running install_lib
+[0.896s] running install_data
+[0.897s] running install_egg_info
+[0.898s] removing '/home/text/rosproject/install/pubsub/lib/python3.8/site-packages/pubsub-0.0.0-py3.8.egg-info' (and everything under it)
+[0.898s] Copying ../../build/pubsub/pubsub.egg-info to /home/text/rosproject/install/pubsub/lib/python3.8/site-packages/pubsub-0.0.0-py3.8.egg-info
+[0.899s] running install_scripts
+[0.911s] Installing publisher script to /home/text/rosproject/install/pubsub/lib/pubsub
+[0.912s] writing list of installed files to '/home/text/rosproject/build/pubsub/install.log'
+[0.936s] Invoked command in '/home/text/rosproject/src/pubsub' returned '0': PYTHONPATH=/home/text/rosproject/install/pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/text/rosproject/build/pubsub/build install --prefix /home/text/rosproject/install/pubsub --record /home/text/rosproject/build/pubsub/install.log --single-version-externally-managed

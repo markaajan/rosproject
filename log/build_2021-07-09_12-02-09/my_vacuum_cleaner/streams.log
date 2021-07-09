@@ -1,0 +1,42 @@
+[0.682s] Invoking command in '/home/text/rosproject/src/my_vacuum_cleaner': PYTHONPATH=/home/text/rosproject/install/my_vacuum_cleaner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_vacuum_cleaner build --build-base /home/text/rosproject/build/my_vacuum_cleaner/build install --prefix /home/text/rosproject/install/my_vacuum_cleaner --record /home/text/rosproject/build/my_vacuum_cleaner/install.log --single-version-externally-managed
+[0.840s] running egg_info
+[0.840s] creating ../../build/my_vacuum_cleaner/my_vacuum_cleaner.egg-info
+[0.840s] writing ../../build/my_vacuum_cleaner/my_vacuum_cleaner.egg-info/PKG-INFO
+[0.840s] writing dependency_links to ../../build/my_vacuum_cleaner/my_vacuum_cleaner.egg-info/dependency_links.txt
+[0.840s] writing entry points to ../../build/my_vacuum_cleaner/my_vacuum_cleaner.egg-info/entry_points.txt
+[0.841s] writing requirements to ../../build/my_vacuum_cleaner/my_vacuum_cleaner.egg-info/requires.txt
+[0.841s] writing top-level names to ../../build/my_vacuum_cleaner/my_vacuum_cleaner.egg-info/top_level.txt
+[0.843s] writing manifest file '../../build/my_vacuum_cleaner/my_vacuum_cleaner.egg-info/SOURCES.txt'
+[0.874s] reading manifest file '../../build/my_vacuum_cleaner/my_vacuum_cleaner.egg-info/SOURCES.txt'
+[0.876s] writing manifest file '../../build/my_vacuum_cleaner/my_vacuum_cleaner.egg-info/SOURCES.txt'
+[0.876s] running build
+[0.876s] running build_py
+[0.876s] creating /home/text/rosproject/build/my_vacuum_cleaner/build
+[0.876s] creating /home/text/rosproject/build/my_vacuum_cleaner/build/lib
+[0.876s] creating /home/text/rosproject/build/my_vacuum_cleaner/build/lib/my_vacuum_cleaner
+[0.877s] copying my_vacuum_cleaner/generate.py -> /home/text/rosproject/build/my_vacuum_cleaner/build/lib/my_vacuum_cleaner
+[0.877s] copying my_vacuum_cleaner/coverage.py -> /home/text/rosproject/build/my_vacuum_cleaner/build/lib/my_vacuum_cleaner
+[0.877s] copying my_vacuum_cleaner/__init__.py -> /home/text/rosproject/build/my_vacuum_cleaner/build/lib/my_vacuum_cleaner
+[0.877s] running install
+[0.877s] running install_lib
+[0.877s] creating /home/text/rosproject/install/my_vacuum_cleaner/lib/python3.8/site-packages/my_vacuum_cleaner
+[0.878s] copying /home/text/rosproject/build/my_vacuum_cleaner/build/lib/my_vacuum_cleaner/generate.py -> /home/text/rosproject/install/my_vacuum_cleaner/lib/python3.8/site-packages/my_vacuum_cleaner
+[0.878s] copying /home/text/rosproject/build/my_vacuum_cleaner/build/lib/my_vacuum_cleaner/coverage.py -> /home/text/rosproject/install/my_vacuum_cleaner/lib/python3.8/site-packages/my_vacuum_cleaner
+[0.878s] copying /home/text/rosproject/build/my_vacuum_cleaner/build/lib/my_vacuum_cleaner/__init__.py -> /home/text/rosproject/install/my_vacuum_cleaner/lib/python3.8/site-packages/my_vacuum_cleaner
+[0.878s] byte-compiling /home/text/rosproject/install/my_vacuum_cleaner/lib/python3.8/site-packages/my_vacuum_cleaner/generate.py to generate.cpython-38.pyc
+[0.879s] byte-compiling /home/text/rosproject/install/my_vacuum_cleaner/lib/python3.8/site-packages/my_vacuum_cleaner/coverage.py to coverage.cpython-38.pyc
+[0.881s] byte-compiling /home/text/rosproject/install/my_vacuum_cleaner/lib/python3.8/site-packages/my_vacuum_cleaner/__init__.py to __init__.cpython-38.pyc
+[0.881s] running install_data
+[0.881s] creating /home/text/rosproject/install/my_vacuum_cleaner/share/ament_index
+[0.881s] creating /home/text/rosproject/install/my_vacuum_cleaner/share/ament_index/resource_index
+[0.881s] creating /home/text/rosproject/install/my_vacuum_cleaner/share/ament_index/resource_index/packages
+[0.881s] copying resource/my_vacuum_cleaner -> /home/text/rosproject/install/my_vacuum_cleaner/share/ament_index/resource_index/packages
+[0.881s] copying package.xml -> /home/text/rosproject/install/my_vacuum_cleaner/share/my_vacuum_cleaner
+[0.881s] copying launch/clean2.launch.py -> /home/text/rosproject/install/my_vacuum_cleaner/share/my_vacuum_cleaner
+[0.881s] copying launch/clean.launch.py -> /home/text/rosproject/install/my_vacuum_cleaner/share/my_vacuum_cleaner
+[0.881s] running install_egg_info
+[0.882s] Copying ../../build/my_vacuum_cleaner/my_vacuum_cleaner.egg-info to /home/text/rosproject/install/my_vacuum_cleaner/lib/python3.8/site-packages/my_vacuum_cleaner-0.0.0-py3.8.egg-info
+[0.882s] running install_scripts
+[0.897s] Installing coverage script to /home/text/rosproject/install/my_vacuum_cleaner/lib/my_vacuum_cleaner
+[0.898s] writing list of installed files to '/home/text/rosproject/build/my_vacuum_cleaner/install.log'
+[0.922s] Invoked command in '/home/text/rosproject/src/my_vacuum_cleaner' returned '0': PYTHONPATH=/home/text/rosproject/install/my_vacuum_cleaner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_vacuum_cleaner build --build-base /home/text/rosproject/build/my_vacuum_cleaner/build install --prefix /home/text/rosproject/install/my_vacuum_cleaner --record /home/text/rosproject/build/my_vacuum_cleaner/install.log --single-version-externally-managed

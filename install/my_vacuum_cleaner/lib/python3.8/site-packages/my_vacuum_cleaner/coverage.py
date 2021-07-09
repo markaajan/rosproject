@@ -65,19 +65,19 @@ width = 0.5
 def genpoints (a,b,c,d): #Send points ,x1,y1,x2,y2
 
     global points
-    if a > c:
-        y = a
-        a = c
-        c = y
-        y = b
-        b = d
-        d = y
-        # This is to flip the coordinated for ease of handling
+    # if a > c:
+    #     y = a
+    #     a = c
+    #     c = y
+    #     y = b
+    #     b = d
+    #     d = y
+    #     # This is to flip the coordinated for ease of handling
     cc = c - ((c - a) % width)
     dd = d - ((d - b) % width)
     aa = a
     bb = b
-    points.append((aa,bb))
+    points.append((aa,bb,-0.706915,0.707298))
     # if c-a < b-d:
     #     n = math.floor((c - a) / width)
     # else:
@@ -109,7 +109,7 @@ def genpoints (a,b,c,d): #Send points ,x1,y1,x2,y2
             if bb > dd:
                 bb = bb - width
                 if ~((aa >= -3.26) & (aa <= -1.47) & (bb <= 2.977) & (bb >= 1.8366)) :
-                    points.append((aa,bb))
+                    points.append((aa,bb,-0.706915,0.707298))
             else:
                 flag = False
                 aa = aa + width
@@ -117,7 +117,7 @@ def genpoints (a,b,c,d): #Send points ,x1,y1,x2,y2
             if bb < b:
                 bb = bb + width
                 if ~((aa >= -3.26) & (aa <= -1.47) & (bb <= 2.977) & (bb >= 1.8366)):
-                    points.append((aa,bb))
+                    points.append((aa,bb,0.706915,0.707298))
             else:
                 flag = True
                 aa = aa + width
@@ -127,11 +127,11 @@ def genpoints (a,b,c,d): #Send points ,x1,y1,x2,y2
 
 def main(args=None):
     rclpy.init(args=args)
-
     action_client = MinimalActionClient()
+
     genpoints(-6.7064,0.23458,-5.1437,-2.50905)
-    genpoints(-6.3681,4.4557,-5.9061,2.055)
-    genpoints(-4.02066,4.2101,-0.19589,0.6802)
+    genpoints(-6.5681,4.4557,-5.1061,1.255)
+    genpoints(-4.02066,4.2101,-0.19589,0.8802)
     genpoints(0.69472,4.7989,1.6596,2.2501)
     genpoints(3.2304,4.5252,6.8877,0.5546)
 
@@ -166,10 +166,11 @@ def main(args=None):
         newgoal = PoseStamped()
         newgoal.pose.position.x = point[0]
         newgoal.pose.position.y = point[1]
-        # newgoal.pose.orientation.w = 0.0
-        # newgoal.pose.orientation.x = 0.0
-        # newgoal.pose.orientation.y = 0.0
-        # newgoal.pose.orientation.z = 0.0
+        newgoal.pose.position.z = 0.0
+        newgoal.pose.orientation.w = point[3]
+        newgoal.pose.orientation.x = 0.0
+        newgoal.pose.orientation.y = 0.0
+        newgoal.pose.orientation.z = point[2]
         mgoal.append(newgoal)
 
     goal1 = PoseStamped()
@@ -246,8 +247,8 @@ def main(args=None):
     mgoal.append(goal5)
 
 
-    plt.scatter(*zip(*points))
-    plt.show()
+    #plt.scatter(*zip(*points))
+    #plt.show()
     action_client.send_points(mgoal)
     rclpy.spin(action_client)
 
