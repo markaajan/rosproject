@@ -1,3 +1,0 @@
-[console_scripts]
-coverage = my_vacuum_cleaner.coverage:main
-

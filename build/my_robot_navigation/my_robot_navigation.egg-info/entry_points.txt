@@ -1,3 +1,0 @@
-[console_scripts]
-initpose = my_robot_navigation.initpose:main
-
